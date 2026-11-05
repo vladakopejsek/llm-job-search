@@ -1,0 +1,153 @@
+[
+ {
+  "name": "Personal information",
+  "fields": [
+   {
+    "id": "firstname",
+    "required": true,
+    "label": "First name",
+    "type": "text",
+    "maxLength": 127
+   },
+   {
+    "id": "lastname",
+    "required": true,
+    "label": "Last name",
+    "type": "text",
+    "maxLength": 127
+   },
+   {
+    "id": "email",
+    "required": true,
+    "label": "Email",
+    "type": "email",
+    "maxLength": 255
+   },
+   {
+    "id": "headline",
+    "required": false,
+    "label": "Headline",
+    "type": "text",
+    "maxLength": 255
+   },
+   {
+    "id": "phone",
+    "required": false,
+    "label": "Phone",
+    "type": "phone",
+    "helper": "The hiring team may use this number to contact you about this job.",
+    "maxLength": 255
+   },
+   {
+    "id": "address",
+    "required": false,
+    "label": "Address",
+    "helper": "Include your city, region, and country, so that employers can easily manage your application.",
+    "type": "text",
+    "value": "Lisbon, Portugal",
+    "prefilledByLocation": true
+   },
+   {
+    "id": "avatar",
+    "required": false,
+    "label": "Photo",
+    "type": "file",
+    "supportedFileTypes": [
+     ".jpg",
+     ".jpeg",
+     ".gif",
+     ".png"
+    ],
+    "supportedMimeTypes": [
+     "image/jpeg",
+     "image/gif",
+     "image/png"
+    ],
+    "maxFileSize": 12000000
+   }
+  ]
+ },
+ {
+  "name": "Profile",
+  "fields": [
+   {
+    "id": "summary",
+    "required": false,
+    "label": "Summary",
+    "type": "paragraph"
+   },
+   {
+    "id": "resume",
+    "required": true,
+    "label": "Resume",
+    "type": "file",
+    "supportedFileTypes": [
+     ".pdf",
+     ".doc",
+     ".docx",
+     ".odt",
+     ".rtf"
+    ],
+    "supportedMimeTypes": [
+     "application/pdf",
+     "application/msword",
+     "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+     "application/vnd.oasis.opendocument.text",
+     "application/rtf"
+    ],
+    "maxFileSize": 12000000
+   }
+  ]
+ },
+ {
+  "name": "Details",
+  "fields": [
+   {
+    "id": "QA_8434958",
+    "required": true,
+    "label": "Do you live and work in Europe? We hire only in Europe at the moment.",
+    "type": "boolean"
+   },
+   {
+    "id": "QA_12012687",
+    "required": true,
+    "label": "How many years have you shipped production frontend, including fullstack years?",
+    "type": "number",
+    "max": 9999999999999
+   },
+   {
+    "id": "QA_12012683",
+    "required": true,
+    "label": "How many years of professional experience do you have with TypeScript/JavaScript?",
+    "type": "number",
+    "max": 9999999999999
+   },
+   {
+    "id": "QA_12012684",
+    "required": true,
+    "label": "How many years have you shipped production backend, including fullstack years?",
+    "type": "number",
+    "max": 9999999999999
+   },
+   {
+    "id": "QA_12012475",
+    "required": true,
+    "label": "How many years of professional experience do you have with React or Vue?",
+    "type": "number",
+    "max": 9999999999999
+   },
+   {
+    "id": "QA_12012679",
+    "required": true,
+    "label": "What about Umbrella or this role made you curious enough to apply?\nWhat would you want to understand better if we talk?\nWhat’s one concern or open question you have?",
+    "type": "paragraph"
+   },
+   {
+    "id": "QA_12143884",
+    "required": true,
+    "label": "Describe the most complex thing you've built or owned end-to-end, that was shipped to production, and used by customers. \n\nPlease cover:\n\n- What it did and why it mattered to the users\n- What made the project genuinely hard\n- What you personally owned, decided, designed, or built - vs. the rest of the team\n- What was the outcome? what happened after it shipped\n\nYou will be asked to share more details and asked questions about the project you describe here in later stages of the interview process.",
+    "type": "paragraph"
+   }
+  ]
+ }
+]

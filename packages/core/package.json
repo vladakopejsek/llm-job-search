@@ -1,0 +1,44 @@
+{
+  "name": "@llm-job-search/core",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "import:watchlist": "tsx --env-file=../../.env src/cli/import-watchlist.ts",
+    "collect": "tsx --env-file=../../.env src/cli/collect.ts",
+    "screen": "tsx --env-file=../../.env src/cli/screen.ts",
+    "discover": "tsx --env-file=../../.env src/cli/discover.ts",
+    "fresh": "tsx --env-file=../../.env src/cli/fresh.ts",
+    "daily-run": "tsx --env-file=../../.env src/cli/daily-run.ts",
+    "eval": "tsx --env-file=../../.env src/cli/eval.ts",
+    "agent": "tsx --env-file=../../.env src/cli/agent.ts",
+    "company": "tsx --env-file=../../.env src/cli/company.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/exporter-trace-otlp-proto": "^0.223.0",
+    "@opentelemetry/sdk-trace-node": "^2.12.0",
+    "drizzle-orm": "^0.45.3",
+    "fast-xml-parser": "^5.11.1",
+    "html-to-text": "^10.0.1",
+    "p-limit": "^7.3.3",
+    "postgres": "^3.4.9",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^24.13.6",
+    "drizzle-kit": "^0.31.11",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  },
+  "exports": {
+    "./*": "./src/*"
+  }
+}

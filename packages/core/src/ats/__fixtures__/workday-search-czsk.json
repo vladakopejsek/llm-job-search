@@ -1,0 +1,43 @@
+{
+  "total": 44,
+  "jobPostings": [
+    {
+      "title": "Senior Legal Counsel (m/f/n)",
+      "externalPath": "/job/Bratislava/Senior-Legal-Counsel--m-f-n-_JR-06158",
+      "locationsText": "Bratislava",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR-06158"
+      ]
+    },
+    {
+      "title": "Senior AI Enablement Software Engineer (m/f/n)",
+      "externalPath": "/job/Bratislava/AI-Enablement-Software-Engineer_JR-06088",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "JR-06088"
+      ]
+    },
+    {
+      "title": "Python Software Engineer – Malware Automation (m/f/n)",
+      "externalPath": "/job/Bratislava/Python-Software-Engineer---Malware-Automation--m-f-n-_JR-05475",
+      "locationsText": "Bratislava",
+      "postedOn": "Posted 6 Days Ago",
+      "bulletFields": [
+        "JR-05475"
+      ]
+    },
+    {
+      "title": "Koordinátor/ka kancelářského provozu pro ESET",
+      "externalPath": "/job/Prague/Koordintor-ka-kancelskho-provozu-pro-ESET_JR-06101",
+      "locationsText": "Prague",
+      "postedOn": "Posted 17 Days Ago",
+      "bulletFields": [
+        "JR-06101"
+      ]
+    }
+  ],
+  "facets": [],
+  "userAuthenticated": false
+}

@@ -1,0 +1,1 @@
+ALTER TYPE "public"."ats" ADD VALUE 'startupjobs' BEFORE 'other';

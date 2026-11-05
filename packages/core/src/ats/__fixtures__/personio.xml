@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workzag-jobs>
+<position>
+    <id>2628851</id>
+    <subcompany>JTL-Software GmbH</subcompany>
+    <office>Mobil</office>
+    <department>Engineering</department>
+    <recruitingCategory>fixed employment</recruitingCategory>
+    <name>Engineering Manager (f/m/d)</name>
+    <jobDescriptions>
+        <jobDescription>
+            <name>Your mission</name>
+            <value>
+                <![CDATA[JTL is one of the leading providers of e-commerce software in the German-speaking region — with around 450 employees across the group and more than 50,000 customers across a wide range of industries. We develop scalable, flexible solutions for the online retail of the future, from ERP systems to shop and marketplace integrations.<br><br><p>As an Engineering Manager at JTL, you combine technical understanding, operational delivery, and people leadership. You ensure that requirements turn into reliable software while staying close to your teams’ technical work. Our Engineering Managers are hands-on leaders who actively contribute to technical discussions, support solution design, and help teams make effective engineering decisions.</p><p>You create clarity around goals, risks, and priorities and empower your teams to deliver autonomously. You work closely with Product Management, Tech Leads, and Architecture, with a strong focus on delivery execution, team development, and operational transparency.</p>AI-assisted development is part of our everyday work. You are comfortable using AI assistants and agentic workflows, critically evaluate their output, and share relevant developments with the team.<br><br><br><strong>Your Responsibilities: </strong><ul><li>You lead and develop engineering teams, supporting growth through coaching, feedback, and performance management</li><li>You build and maintain healthy, high-performing teams, contributing to hiring, onboarding, and retention</li><li>You own reliable delivery and ensure realistic planning, transparency, and early communication of risks</li><li>You manage the operational development process, including refinements, sprint planning, and ongoing prioritisation</li><li>You work closely with Product Management to ensure requirements are clear, actionable, and well prepared</li><li>You coordinate estimations, technical assessments, and dependencies together with Tech Leads and the team</li><li>You make operational decisions, remove impediments, and proactively address bottlenecks, overload, and changing priorities</li><li>You collaborate closely with Product Management, Architecture, and other teams, providing clear reporting on progress, risks, and deviations from plan</li></ul>]]>
+            </value>
+        </jobDescription>
+        <jobDescription>
+            <name>Your profile</name>
+            <value>
+                <![CDATA[<ul><li>You have experience leading or coordinating development teams – as a Team Lead, Engineering Manager, or in a comparable role</li><li>You bring several years of software development experience with solid technical understanding</li><li><span style="color:rgb(0,0,0);font-family:Arial, Helvetica, sans-serif;font-size:14px;font-style:normal;font-weight:400;text-transform:none;text-decoration:none;display:inline;">You have hands on experience with C# and the .NET ecosystem</span></li><li>You understand technical contexts and can communicate at eye level with developers, Tech Leads, and stakeholders</li><li>You can manage priorities sensibly under real constraints</li><li>You communicate in a structured way and deal pragmatically with change and uncertainty</li><li>You ideally have experience working with complex or legacy software systems and iterative software development</li><li>You are open to AI-assisted development tools and modern development processes</li><li>You have good German language skills</li></ul>]]>
+            </value>
+        </jobDescription>
+        <jobDescription>
+            <name>Why us?</name>
+            <value>
+                <![CDATA[<ul style="border:0px solid;color:rgb(32,32,32);font-size:14px;font-style:normal;font-weight:400;text-transform:none;font-family:Inter, '-apple-system', 'system-ui', 'Segoe UI', Roboto, 'Helvetica Neue', 'Open Sans', 'system-ui', '-apple-system', 'Segoe UI', Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';background-color:rgb(255,255,255);"><li>Remote-first within Germany, with the option to work remotely from eligible countries for up to 180 days per year</li><li>Meal allowance of up to €115 net per month</li><li>Ergonomic workspace allowance for your home office setup</li><li>Regular team events, company-wide gatherings, and summer and Christmas parties to stay connected as a remote-first company</li><li>EGYM Wellpass and JobRad subsidy</li><li>Financial benefits including capital-forming payments (Vermögenswirksame Leistungen) and a company pension scheme</li></ul>]]>
+            </value>
+        </jobDescription>
+    </jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-time</schedule>
+    <yearsOfExperience>2-5</yearsOfExperience>
+    <keywords>Refinement,Team Lead,Product Owner,Delivery,Engineering,Leadership</keywords>
+    <occupation>general_and_other_it_software</occupation>
+    <occupationCategory>it_software</occupationCategory>
+    <createdAt>2026-05-08T14:17:26+00:00</createdAt>
+</position>
+<position>
+    <id>2666138</id>
+    <subcompany>Returnless / SendDirect B.V.</subcompany>
+    <office>Mobil</office>
+    <additionalOffices>
+        <office>Eindhoven</office>
+    </additionalOffices>
+    <department>Sales</department>
+    <recruitingCategory>fixed employment</recruitingCategory>
+    <name>Account Executive (w/m/d) - Returnless</name>
+    <jobDescriptions></jobDescriptions>
+    <employmentType>permanent</employmentType>
+    <seniority>experienced</seniority>
+    <schedule>full-time</schedule>
+    <yearsOfExperience>2-5</yearsOfExperience>
+    <keywords>Sales,Software Sales,B2B</keywords>
+    <occupation>general_and_other_sales_and_business_development</occupation>
+    <occupationCategory>sales_and_business_development</occupationCategory>
+    <createdAt>2026-06-10T15:41:00+00:00</createdAt>
+</position>
+</workzag-jobs>

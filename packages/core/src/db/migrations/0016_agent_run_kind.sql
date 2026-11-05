@@ -1,0 +1,4 @@
+ALTER TABLE "agent_runs" ADD COLUMN "kind" text DEFAULT 'evaluate' NOT NULL;--> statement-breakpoint
+-- Hand-written backfill: each run's kind from what it logged. A run that evaluated anything stays 'evaluate' (daily runs used to draft packs and read Gmail too).
+UPDATE "agent_runs" r SET "kind" = 'prep' WHERE (EXISTS (SELECT 1 FROM "llm_calls" c WHERE c."run_id" = r."id" AND c."kind" = 'prep') OR EXISTS (SELECT 1 FROM "agent_attempts" a WHERE a."run_id" = r."id" AND a."kind" = 'prep')) AND NOT EXISTS (SELECT 1 FROM "agent_attempts" a WHERE a."run_id" = r."id" AND a."kind" = 'evaluation');--> statement-breakpoint
+UPDATE "agent_runs" r SET "kind" = 'replies' WHERE EXISTS (SELECT 1 FROM "agent_attempts" a WHERE a."run_id" = r."id" AND a."kind" = 'outcomes') AND NOT EXISTS (SELECT 1 FROM "agent_attempts" a WHERE a."run_id" = r."id" AND a."kind" = 'evaluation');

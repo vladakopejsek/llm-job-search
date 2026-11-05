@@ -1,0 +1,166 @@
+{
+  "thermofisher": [
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Bangalore, India",
+              "id": "fc837035319310019d46f21f7b7d0000",
+              "count": 152
+            },
+            {
+              "descriptor": "Brno, Czechia",
+              "id": "b2591be32ceb10019d4996668eb70000",
+              "count": 73
+            },
+            {
+              "descriptor": "Eindhoven, Netherlands",
+              "id": "c140a6578f1a10019d2ae6dfb20b0000",
+              "count": 19
+            },
+            {
+              "descriptor": "Pardubice, Czechia",
+              "id": "c63cac162b8d10019d4d609169780000",
+              "count": 1
+            },
+            {
+              "descriptor": "Prague, Czechia",
+              "id": "ed4d76dbefe910019d515578d3e20000",
+              "count": 17
+            },
+            {
+              "descriptor": "Remote, Czechia",
+              "id": "b2bb23b3e37610019d5ad87960c20000",
+              "count": 16
+            },
+            {
+              "descriptor": "Remote, Slovakia",
+              "id": "6609626fa31510019d5e6c2b93830000",
+              "count": 3
+            },
+            {
+              "descriptor": "Samorin, Slovakia",
+              "id": "fc837035319310019d60157bccad0000",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "barclays": [
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Gemini Building A, Prague",
+              "id": "1ab48a98eb7c100163431b19e4110000",
+              "count": 10
+            },
+            {
+              "descriptor": "Gemini Building B, Prague",
+              "id": "112c054282011001637b42605aba0000",
+              "count": 1
+            },
+            {
+              "descriptor": "Glasgow Campus",
+              "id": "1ab48a98eb7c100163411a1947370000",
+              "count": 71
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "valeo": [
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locationCountry",
+          "descriptor": "Country",
+          "values": [
+            {
+              "descriptor": "Czechia",
+              "id": "fc078443155c4ad294201ecf5a61a499",
+              "count": 32
+            },
+            {
+              "descriptor": "Poland",
+              "id": "131d5ac7e3ee4d7b962bdc96e498e412",
+              "count": 86
+            },
+            {
+              "descriptor": "Slovakia",
+              "id": "d2f29df0c90f4cea9e7d17f2ed8a86ad",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "facetParameter": "locations",
+          "descriptor": "Location",
+          "values": [
+            {
+              "descriptor": "Czechowice",
+              "id": "1bc7ee912dc9100c1b60ce9b02c30000",
+              "count": 44
+            },
+            {
+              "descriptor": "Prague",
+              "id": "1bc7ee912dc9100c1b616498c11e0000",
+              "count": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "redhat": [
+    {
+      "facetParameter": "a",
+      "descriptor": "Country",
+      "values": [
+        {
+          "descriptor": "United States of America",
+          "id": "bc33aa3152ec42d4995f4791a106ed09",
+          "count": 43
+        },
+        {
+          "descriptor": "Germany",
+          "id": "dcc5b7608d8644b3a93716604e78e995",
+          "count": 5
+        },
+        {
+          "descriptor": "Austria",
+          "id": "d004c0d1a6c84511ab048669fcdf9fd7",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "facetParameter": "b",
+      "descriptor": "Region/State/Province",
+      "values": [
+        {
+          "descriptor": "North Carolina",
+          "id": "1486a0a4a8464c3b9ec482d4038deb99",
+          "count": 24
+        },
+        {
+          "descriptor": "Bavaria",
+          "id": "bd89fff5ffa6440a9abeaf2c5c1dc37c",
+          "count": 5
+        }
+      ]
+    }
+  ]
+}

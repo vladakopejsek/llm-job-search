@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/geist";
+@import "@fontsource-variable/geist-mono";
+
+/* `dark:` follows the `dark` class on <html> (src/lib/theme.tsx), not the OS setting. */
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Tokens from the design (Claude Design canvas, project/jr.css): zinc surfaces,
+ * one lime accent. Lime means "go": the next forward action, fit 8+, the active
+ * nav item, progress and live state. Nothing else, so the focus ring is neutral.
+ * Elevation is surface tone plus 1px borders, never shadows on cards.
+ */
+:root {
+  --radius: 0.625rem;
+  --background: #fafafa;
+  --foreground: #09090b;
+  --foreground-2: #27272a;
+  --card: #ffffff;
+  --card-foreground: #09090b;
+  --popover: #ffffff;
+  --popover-foreground: #09090b;
+  --muted: #f4f4f5;
+  --muted-2: #e4e4e7;
+  --muted-foreground: #5f5f68;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #09090b;
+  --accent: #f4f4f5;
+  --accent-foreground: #09090b;
+  --border: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --input: #d4d4d8;
+  --ring: #5f5f68;
+  --primary: #c6f432;
+  --primary-foreground: #0a0a0a;
+  /* Lime used as text: on white it needs a darker ink to be readable. */
+  --primary-ink: #3f6a0a;
+  --primary-soft: rgb(101 163 13 / 0.12);
+  --warning: #9a4a06;
+  --warning-soft: rgb(217 119 6 / 0.12);
+  --destructive: #b42323;
+  --destructive-soft: rgb(220 38 38 / 0.08);
+  --overlay: rgb(9 9 11 / 0.32);
+}
+
+.dark {
+  --background: #09090b;
+  --foreground: #fafafa;
+  --foreground-2: #d4d4d8;
+  --card: #111113;
+  --card-foreground: #fafafa;
+  --popover: #111113;
+  --popover-foreground: #fafafa;
+  --muted: #18181b;
+  --muted-2: #25252a;
+  --muted-foreground: #8b8b93;
+  --secondary: #18181b;
+  --secondary-foreground: #fafafa;
+  --accent: #18181b;
+  --accent-foreground: #fafafa;
+  --border: #232327;
+  --border-strong: #2f2f35;
+  --input: #2f2f35;
+  --ring: #8b8b93;
+  --primary-ink: #c6f432;
+  --primary-soft: rgb(198 244 50 / 0.1);
+  --warning: #f5b544;
+  --warning-soft: rgb(245 181 68 / 0.12);
+  --destructive: #ee7a7d;
+  --destructive-soft: rgb(238 122 125 / 0.12);
+  --overlay: rgb(0 0 0 / 0.62);
+}
+
+@theme inline {
+  --font-sans: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono Variable", ui-monospace, monospace;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 2px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-foreground-2: var(--foreground-2);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-muted: var(--muted);
+  --color-muted-2: var(--muted-2);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-destructive: var(--destructive);
+  --color-destructive-soft: var(--destructive-soft);
+  --color-overlay: var(--overlay);
+}
+
+/* Small uppercase mono label above a section or value. */
+@utility eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+  /* Every number, date and count is mono; its digits line up in columns. */
+  .font-mono {
+    font-variant-numeric: tabular-nums;
+  }
+}

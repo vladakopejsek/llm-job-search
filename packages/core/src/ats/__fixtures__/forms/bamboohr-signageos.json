@@ -1,0 +1,124 @@
+{
+  "meta": {},
+  "result": {
+    "formFields": {
+      "firstName": {
+        "isRequired": true,
+        "value": "",
+        "label": "First Name"
+      },
+      "lastName": {
+        "isRequired": true,
+        "value": "",
+        "label": "Last Name"
+      },
+      "email": {
+        "isRequired": true,
+        "value": "",
+        "label": "Email"
+      },
+      "phone": {
+        "isRequired": true,
+        "value": "",
+        "label": "Phone"
+      },
+      "streetAddress": {
+        "isRequired": true,
+        "value": "",
+        "label": "Address"
+      },
+      "city": {
+        "isRequired": true,
+        "value": "",
+        "label": "City"
+      },
+      "state": {
+        "isRequired": true,
+        "value": "",
+        "label": "State",
+        "options": []
+      },
+      "zip": {
+        "isRequired": true,
+        "value": "",
+        "label": "ZIP"
+      },
+      "countryId": {
+        "isRequired": true,
+        "value": "56",
+        "label": "Country",
+        "options": [
+          {
+            "id": "1",
+            "text": "United States"
+          },
+          {
+            "id": "2",
+            "text": "Canada"
+          }
+        ]
+      },
+      "linkedinUrl": {
+        "isRequired": false,
+        "value": "",
+        "label": "LinkedIn URL"
+      },
+      "dateAvailable": {
+        "isRequired": false,
+        "value": "",
+        "label": "Date Available"
+      },
+      "desiredPay": {
+        "isRequired": false,
+        "value": "",
+        "label": "Desired Pay"
+      },
+      "coverLetterFileId": {
+        "isRequired": false,
+        "value": "",
+        "label": "Cover Letter"
+      },
+      "resumeFileId": {
+        "isRequired": true,
+        "value": "",
+        "label": "Resume"
+      },
+      "customQuestions": [
+        {
+          "id": "91",
+          "isRequired": true,
+          "question": "Hands-on experience using AI in your day-to-day work?",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "92",
+          "isRequired": true,
+          "question": "Do you have permanent residence in the Czech Republic and valid work authorization?",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "101",
+          "isRequired": true,
+          "question": "Do you speak Czech or Slovak at B2 level or higher?",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        }
+      ],
+      "genderId": [],
+      "ethnicityId": [],
+      "veteranStatusId": [],
+      "disabilityId": []
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "llm-job-search",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.6.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "biome check --error-on-warnings . && knip && pnpm typecheck && pnpm test",
+    "format": "biome check --write .",
+    "knip": "knip",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "db:generate": "pnpm --filter @llm-job-search/core db:generate",
+    "db:migrate": "pnpm --filter @llm-job-search/core db:migrate",
+    "import:watchlist": "pnpm --filter @llm-job-search/core import:watchlist",
+    "collect": "pnpm --filter @llm-job-search/core collect",
+    "screen": "pnpm --filter @llm-job-search/core screen",
+    "discover": "pnpm --filter @llm-job-search/core discover",
+    "fresh": "pnpm --filter @llm-job-search/core fresh",
+    "daily-run": "pnpm --filter @llm-job-search/core daily-run",
+    "eval": "pnpm --filter @llm-job-search/core eval",
+    "agent:start": "pnpm --filter @llm-job-search/core agent start",
+    "agent:next": "pnpm --filter @llm-job-search/core agent next",
+    "agent:schema": "pnpm --filter @llm-job-search/core agent schema",
+    "agent:submit": "pnpm --filter @llm-job-search/core agent submit",
+    "agent:finish": "pnpm --filter @llm-job-search/core agent finish",
+    "agent:prep-next": "pnpm --filter @llm-job-search/core agent prep-next",
+    "agent:submit-prep": "pnpm --filter @llm-job-search/core agent submit-prep",
+    "agent:applications": "pnpm --filter @llm-job-search/core agent applications",
+    "agent:propose-outcomes": "pnpm --filter @llm-job-search/core agent propose-outcomes",
+    "queue": "pnpm --filter @llm-job-search/queue start",
+    "company": "pnpm --filter @llm-job-search/core company",
+    "agent:rescore": "pnpm --filter @llm-job-search/core agent rescore"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "knip": "^6.38.0"
+  }
+}

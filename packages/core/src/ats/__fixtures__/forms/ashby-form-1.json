@@ -1,0 +1,682 @@
+{
+ "data": {
+  "jobPosting": {
+   "applicationForm": {
+    "sections": [
+     {
+      "title": "Personal details",
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3__systemfield_name",
+        "field": {
+         "id": "f5955538-a039-45ef-8d07-07a0c5a07a6e",
+         "path": "_systemfield_name",
+         "humanReadablePath": "Name",
+         "title": "First and Last name",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3__systemfield_email",
+        "field": {
+         "id": "ded62780-0c50-4399-847c-4238676a7878",
+         "path": "_systemfield_email",
+         "humanReadablePath": "Email",
+         "title": "Email",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Email",
+         "__autoSerializationID": "EmailField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3__systemfield_resume",
+        "field": {
+         "id": "b9335f95-09c9-43e5-a24b-cace8b554ae1",
+         "path": "_systemfield_resume",
+         "humanReadablePath": "Resume",
+         "title": "Resume",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "File",
+         "__autoSerializationID": "FileField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_2eb47733-ed2a-45c5-a718-a5b9d86faba3",
+        "field": {
+         "id": "2eb47733-ed2a-45c5-a718-a5b9d86faba3",
+         "path": "2eb47733-ed2a-45c5-a718-a5b9d86faba3",
+         "humanReadablePath": "",
+         "title": "Link to your Github",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       }
+      ]
+     },
+     {
+      "title": "Work contract",
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_04a9b797-dbc0-439f-b52f-56d2e5c04b7a",
+        "field": {
+         "id": "04a9b797-dbc0-439f-b52f-56d2e5c04b7a",
+         "path": "04a9b797-dbc0-439f-b52f-56d2e5c04b7a",
+         "humanReadablePath": "",
+         "title": "Tick all options relevant for the role that apply to you regarding the main location of your work contract:",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "MultiValueSelect",
+         "selectableValues": [
+          {
+           "label": "I can be based in the UK and do not need visa support",
+           "value": "I can be based in the UK and do not need visa support"
+          },
+          {
+           "label": "I want to be based in the UK but will need visa support",
+           "value": "I want to be based in the UK but will need visa support"
+          },
+          {
+           "label": "I can be based in Germany and do not need visa support",
+           "value": "I can be based in Germany and do not need visa support"
+          },
+          {
+           "label": "I want to be based in Germany but will need visa support",
+           "value": "I want to be based in Germany but will need visa support"
+          },
+          {
+           "label": "I can be based in a European country other than Germany or the UK where I do not need visa support",
+           "value": "I can be based in a European country other than Germany or the UK where I do not need visa support"
+          },
+          {
+           "label": "I want to be based in a European country other than Germany or the UK where I will need visa support (non EU citizen)",
+           "value": "I want to be based in a European country other than Germany or the UK where I will need visa support (non EU citizen)"
+          },
+          {
+           "label": "I will be based in the US and do not need visa support",
+           "value": "I will be based in the US and do not need visa support"
+          },
+          {
+           "label": "I will be based in the US and need visa support",
+           "value": "I will be based in the US and need visa support"
+          }
+         ],
+         "__autoSerializationID": "MultiValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p>Check if the job posting has any geographical requirements. </p>"
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3__systemfield_location",
+        "field": {
+         "id": "c8033a90-bd0c-4622-a29b-514cf85f1e30",
+         "path": "_systemfield_location",
+         "humanReadablePath": "Location",
+         "title": "What would be your preferred main location for your contract?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Location",
+         "locationTypes": [
+          "Country"
+         ],
+         "__autoSerializationID": "LocationField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p>We can sponsor visas for Germany for most roles. For any other country, you need to have existing rights to work. Unless specified otherwise (US role), we only hire in Europe. </p>"
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_99fd0bd5-028a-460d-a120-d305bf6487ac",
+        "field": {
+         "id": "99fd0bd5-028a-460d-a120-d305bf6487ac",
+         "path": "99fd0bd5-028a-460d-a120-d305bf6487ac",
+         "humanReadablePath": "",
+         "title": "What is your expected yearly salary for the role?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": false,
+        "descriptionHtml": "<p>We're assuming this answer to be the gross yearly base salary for a full time permanent contract. If your role includes a variable, please detail. <br />Example: <em>€100K base + €100K variable</em></p>"
+       }
+      ]
+     },
+     {
+      "title": "Motivation",
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_27e5c404-f982-458a-8350-22ca2dd3b72d",
+        "field": {
+         "id": "27e5c404-f982-458a-8350-22ca2dd3b72d",
+         "path": "27e5c404-f982-458a-8350-22ca2dd3b72d",
+         "humanReadablePath": "",
+         "title": "What about Acme or the role caught your attention and made you apply?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_661bdf70-d4c5-4384-b35d-ed844cd2c024",
+        "field": {
+         "id": "661bdf70-d4c5-4384-b35d-ed844cd2c024",
+         "path": "661bdf70-d4c5-4384-b35d-ed844cd2c024",
+         "humanReadablePath": "",
+         "title": "What knowledge/experience do you have with Acme or other automation platforms (make, Zapier, Retool, Tines...)",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "MultiValueSelect",
+         "selectableValues": [
+          {
+           "label": "I'm discovering automation tools",
+           "value": "I'm discovering automation tools"
+          },
+          {
+           "label": "I've used other automation tools in current or previous roles",
+           "value": "I've used other automation tools in current or previous roles"
+          },
+          {
+           "label": "I’m a new user of Acme",
+           "value": "I’m a new user of Acme"
+          },
+          {
+           "label": "I’ve built Acme automations for my professional projects",
+           "value": "I’ve built Acme automations for my professional projects"
+          },
+          {
+           "label": "I use Acme for automations in my personal projects",
+           "value": "I use Acme for automations in my personal projects"
+          },
+          {
+           "label": "I have built a community plugin in Acme",
+           "value": "I have built a community plugin in Acme"
+          },
+          {
+           "label": "I have used a verified community plugin in Acme",
+           "value": "I have used a verified community plugin in Acme"
+          },
+          {
+           "label": "I have built an Acme workflow with human in the loop step",
+           "value": "I have built an Acme workflow with human in the loop step"
+          },
+          {
+           "label": "I have created agentic workflows with Acme",
+           "value": "I have created agentic workflows with Acme"
+          }
+         ],
+         "__autoSerializationID": "MultiValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p><em>Tick all that apply</em></p>"
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_df9bbce7-6794-47f7-a106-921679435117",
+        "field": {
+         "id": "df9bbce7-6794-47f7-a106-921679435117",
+         "path": "df9bbce7-6794-47f7-a106-921679435117",
+         "humanReadablePath": "",
+         "title": "If you've used Acme, drop us a screenshot of your favorite workflow",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "File",
+         "__autoSerializationID": "FileField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       }
+      ]
+     },
+     {
+      "title": "Your background",
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_56d8dcb0-aee0-42a3-acb9-b0ffc32e87a7",
+        "field": {
+         "id": "56d8dcb0-aee0-42a3-acb9-b0ffc32e87a7",
+         "path": "56d8dcb0-aee0-42a3-acb9-b0ffc32e87a7",
+         "humanReadablePath": "",
+         "title": "Have you ever worked as an internal employee at a SaaS startup / scale-up?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Boolean",
+         "__autoSerializationID": "BooleanField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_9870d97d-4d79-4c96-9b5a-ac4737c1c71b",
+        "field": {
+         "id": "2b91a164-74af-4914-b6a9-a2da5653bc23",
+         "path": "9870d97d-4d79-4c96-9b5a-ac4737c1c71b",
+         "humanReadablePath": "",
+         "title": "Which of your past companies operated most like a start-up/scale-up?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p><em>Please share the name of the company and a brief explanation (ex: product, stage, growth, ways of working)</em></p>"
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_81a04f07-c150-4e8f-a22d-8000a3562e79",
+        "field": {
+         "id": "81a04f07-c150-4e8f-a22d-8000a3562e79",
+         "path": "81a04f07-c150-4e8f-a22d-8000a3562e79",
+         "humanReadablePath": "",
+         "title": "How frequently do you work with JavaScript or TypeScript in your current or recent roles? ",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "ValueSelect",
+         "selectableValues": [
+          {
+           "label": "Daily - it's my main language",
+           "value": "Daily - it's my main language"
+          },
+          {
+           "label": "A few times per week - part of my responsibilities",
+           "value": "A few times per week - part of my responsibilities"
+          },
+          {
+           "label": "Occasionally - I use it when needed",
+           "value": "Occasionally - I use it when needed"
+          },
+          {
+           "label": "I currently mostly use other languages",
+           "value": "I currently mostly use other languages"
+          }
+         ],
+         "__autoSerializationID": "ValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_b21fc537-caa1-4be2-b476-7974d16c297b",
+        "field": {
+         "id": "b21fc537-caa1-4be2-b476-7974d16c297b",
+         "path": "b21fc537-caa1-4be2-b476-7974d16c297b",
+         "humanReadablePath": "",
+         "title": "How frequently do you work with Node.js in your current or recent roles?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "ValueSelect",
+         "selectableValues": [
+          {
+           "label": "I use it daily as the primary backend in my main role",
+           "value": "I use it daily as the primary backend in my main role"
+          },
+          {
+           "label": "I use it regularly for side projects or occasional tasks at work",
+           "value": "I use it regularly for side projects or occasional tasks at work"
+          },
+          {
+           "label": "I’ve used it before, but not on my recent projects",
+           "value": "I’ve used it before, but not on my recent projects"
+          },
+          {
+           "label": "I haven't used Node.js in production",
+           "value": "I haven't used Node.js in production"
+          }
+         ],
+         "__autoSerializationID": "ValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_5e32652b-647b-4660-a80c-daeed620e2ce",
+        "field": {
+         "id": "5e32652b-647b-4660-a80c-daeed620e2ce",
+         "path": "5e32652b-647b-4660-a80c-daeed620e2ce",
+         "humanReadablePath": "",
+         "title": "How would you rate your expertise in Vue.js/React?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "ValueSelect",
+         "selectableValues": [
+          {
+           "label": "I haven’t used Vue.js in production, but I have professional experience with React",
+           "value": "I haven’t used Vue.js in production, but I have professional experience with React"
+          },
+          {
+           "label": "I’ve used Vue.js in production, but it’s not my primary frontend framework",
+           "value": "I’ve used Vue.js in production, but it’s not my primary frontend framework"
+          },
+          {
+           "label": "I haven’t used Vue.js in production, but I have professional experience with Angular",
+           "value": "I haven’t used Vue.js in production, but I have professional experience with Angular"
+          },
+          {
+           "label": "I use Vue.js daily in my main role and have built/maintained production features with it",
+           "value": "I use Vue.js daily in my main role and have built/maintained production features with it"
+          },
+          {
+           "label": "I’ve used Vue.js for learning or small personal projects",
+           "value": "I’ve used Vue.js for learning or small personal projects"
+          },
+          {
+           "label": "My main focus in recent years has been backend development",
+           "value": "My main focus in recent years has been backend development",
+           "isArchived": false
+          }
+         ],
+         "__autoSerializationID": "ValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_a0703cb0-62de-48c0-b6f5-4d5e21236e77",
+        "field": {
+         "id": "a0703cb0-62de-48c0-b6f5-4d5e21236e77",
+         "path": "a0703cb0-62de-48c0-b6f5-4d5e21236e77",
+         "humanReadablePath": "",
+         "title": "When working on backend systems, which of the following best reflects your typical involvement?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "ValueSelect",
+         "selectableValues": [
+          {
+           "label": "I’ve designed and owned architectural decisions for systems",
+           "value": "I’ve designed and owned architectural decisions for systems"
+          },
+          {
+           "label": "I've designed architecture for my features and contributed to broader architecture discussions",
+           "value": "I've designed architecture for my features and contributed to broader architecture discussions",
+           "isArchived": false
+          },
+          {
+           "label": "I’ve mostly implemented features based on existing patterns",
+           "value": "I’ve mostly implemented features based on existing patterns",
+           "isArchived": false
+          },
+          {
+           "label": "My main focus has always been in frontend development",
+           "value": "My main focus has always been in frontend development",
+           "isArchived": false
+          }
+         ],
+         "__autoSerializationID": "ValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_24780c10-788d-49e4-acf2-d5d14a763788",
+        "field": {
+         "id": "24780c10-788d-49e4-acf2-d5d14a763788",
+         "path": "24780c10-788d-49e4-acf2-d5d14a763788",
+         "humanReadablePath": "",
+         "title": "What type of work have you focused on most extensively?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "MultiValueSelect",
+         "selectableValues": [
+          {
+           "label": "Working within a clearly defined area of a larger system, with responsibilities focused on a specific component",
+           "value": "Working within a clearly defined area of a larger system, with responsibilities focused on a specific component"
+          },
+          {
+           "label": "Implementing features or improvements based on predefined requirements or specifications",
+           "value": "Implementing features or improvements based on predefined requirements or specifications",
+           "isArchived": false
+          },
+          {
+           "label": "Building user-facing product features with responsibility for both frontend and backend changes",
+           "value": "Building user-facing product features with responsibility for both frontend and backend changes",
+           "isArchived": false
+          },
+          {
+           "label": "Improving specific parts of a product (bug fixes, enhancements, incremental improvements)",
+           "value": "Improving specific parts of a product (bug fixes, enhancements, incremental improvements)",
+           "isArchived": false
+          },
+          {
+           "label": "Building user-facing features primarily within an existing architecture or team-defined scope",
+           "value": "Building user-facing features primarily within an existing architecture or team-defined scope",
+           "isArchived": false
+          },
+          {
+           "label": "Building backend APIs and services that power product functionality",
+           "value": "Building backend APIs and services that power product functionality",
+           "isArchived": false
+          },
+          {
+           "label": "Working on large-scale refactors or architectural migrations",
+           "value": "Working on large-scale refactors or architectural migrations",
+           "isArchived": false
+          },
+          {
+           "label": "Maintaining or extending legacy systems with defined boundaries",
+           "value": "Maintaining or extending legacy systems with defined boundaries",
+           "isArchived": false
+          },
+          {
+           "label": "Running product experiments or improving activation, engagement, or retention metrics",
+           "value": "Running product experiments or improving activation, engagement, or retention metrics",
+           "isArchived": false
+          },
+          {
+           "label": "Building AI-powered features or integrating machine learning models into a product",
+           "value": "Building AI-powered features or integrating machine learning models into a product",
+           "isArchived": false
+          },
+          {
+           "label": "Improving reliability, evaluation, or infrastructure around AI systems",
+           "value": "Improving reliability, evaluation, or infrastructure around AI systems",
+           "isArchived": false
+          },
+          {
+           "label": "Designing or maintaining authentication, authorization, or permission systems",
+           "value": "Designing or maintaining authentication, authorization, or permission systems",
+           "isArchived": false
+          },
+          {
+           "label": "Working on compliance, audit logging, or enterprise security requirements",
+           "value": "Working on compliance, audit logging, or enterprise security requirements",
+           "isArchived": false
+          },
+          {
+           "label": "Infrastructure, DevOps, or cloud platform operations",
+           "value": "Infrastructure, DevOps, or cloud platform operations",
+           "isArchived": false
+          },
+          {
+           "label": "Improving internal developer tooling, CI/CD, or engineering productivity",
+           "value": "Improving internal developer tooling, CI/CD, or engineering productivity",
+           "isArchived": false
+          },
+          {
+           "label": "Building integrations with third-party services or working on open-source libraries",
+           "value": "Building integrations with third-party services or working on open-source libraries",
+           "isArchived": false
+          },
+          {
+           "label": "Contributing to a small part of a larger system with clearly defined ownership boundaries",
+           "value": "Contributing to a small part of a larger system with clearly defined ownership boundaries",
+           "isArchived": false
+          }
+         ],
+         "__autoSerializationID": "MultiValueSelectField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p><em>Please select up to 4</em></p>"
+       }
+      ]
+     },
+     {
+      "title": "Additional information",
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_593641a4-1429-49c6-9b46-f07f1985f893",
+        "field": {
+         "id": "593641a4-1429-49c6-9b46-f07f1985f893",
+         "path": "593641a4-1429-49c6-9b46-f07f1985f893",
+         "humanReadablePath": "",
+         "title": "What was the largest scale project you've worked on in terms of users, data volume, or traffic? What challenges did you encounter as it grew?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p><em>If you haven’t worked on high-scale systems yet, feel free to write “N/A\"</em></p>"
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_83ba8c4a-e24a-4ed2-842f-9275628baddb",
+        "field": {
+         "id": "83ba8c4a-e24a-4ed2-842f-9275628baddb",
+         "path": "83ba8c4a-e24a-4ed2-842f-9275628baddb",
+         "humanReadablePath": "",
+         "title": "What do you need from us at Acme in order to thrive as an engineer?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       },
+       {
+        "id": "7d2115f0-38f6-495b-a1db-7a520b4df6b3_363aa291-b480-47be-96e4-fb6d5ed20b33",
+        "field": {
+         "id": "88272f60-a8dd-45e0-922f-d12c57344de9",
+         "path": "363aa291-b480-47be-96e4-fb6d5ed20b33",
+         "humanReadablePath": "",
+         "title": "Do you know which team you'd like to join?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "ValueSelect",
+         "selectableValues": [
+          {
+           "label": "Nodes",
+           "value": "Nodes",
+           "isArchived": false
+          },
+          {
+           "label": "Lifecycle & Governance",
+           "value": "Lifecycle & Governance",
+           "isArchived": false
+          },
+          {
+           "label": "Identity and Access Management",
+           "value": "Identity and Access Management",
+           "isArchived": false
+          },
+          {
+           "label": "Cloud Experience",
+           "value": "Cloud Experience",
+           "isArchived": false
+          },
+          {
+           "label": "API & OEM",
+           "value": "API & OEM",
+           "isArchived": false
+          },
+          {
+           "label": "Enterprise Plugins & Partnership",
+           "value": "Enterprise Plugins & Partnership",
+           "isArchived": false
+          },
+          {
+           "label": "Governance & Observability",
+           "value": "Governance & Observability",
+           "isArchived": false
+          }
+         ],
+         "__autoSerializationID": "ValueSelectField"
+        },
+        "isRequired": false,
+        "descriptionHtml": "<p><em>We usually determine the </em><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://example.com/engineering-teams\"><em>team</em></a><em> that best fits with your skills by the middle/end of the interview process. If you already have a specific team you'd like to join based on your current strenghts, you can let us know here. </em></p>"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

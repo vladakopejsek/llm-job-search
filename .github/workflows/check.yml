@@ -1,0 +1,34 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    # Postgres only for the SQL guard's tests (packages/core/src/ask/sql.test.ts): they run against a
+    # read-only role, because Postgres itself refuses the writes. No schema is needed.
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL_READONLY: postgres://job_search_ro:ro@localhost:5432/postgres
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Read-only role for the SQL guard's tests
+        run: psql postgres://postgres:postgres@localhost:5432/postgres -c "CREATE ROLE job_search_ro LOGIN PASSWORD 'ro'; GRANT pg_read_all_data TO job_search_ro;"
+      - name: Lint, unused code, types, tests
+        run: pnpm check

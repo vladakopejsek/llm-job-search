@@ -1,0 +1,181 @@
+{
+ "data": {
+  "jobPosting": {
+   "applicationForm": {
+    "sections": [
+     {
+      "title": null,
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932__systemfield_name",
+        "field": {
+         "id": "9b49c915-30ba-4c38-aa8a-89a38c331d1d",
+         "path": "_systemfield_name",
+         "humanReadablePath": "Name",
+         "title": "Name",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932__systemfield_email",
+        "field": {
+         "id": "94fb1c7f-0a02-4923-a1eb-2aec917af841",
+         "path": "_systemfield_email",
+         "humanReadablePath": "Email",
+         "title": "Email",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Email",
+         "__autoSerializationID": "EmailField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932__systemfield_location",
+        "field": {
+         "id": "2643532e-199c-4878-a083-becced92eeba",
+         "path": "_systemfield_location",
+         "humanReadablePath": "Location",
+         "title": "Country of permanent residence",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Location",
+         "locationTypes": [
+          "Country"
+         ],
+         "__autoSerializationID": "LocationField"
+        },
+        "isRequired": true,
+        "descriptionHtml": "<p></p>"
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932__systemfield_resume",
+        "field": {
+         "id": "c8f17909-5665-4853-91ea-d275c5971405",
+         "path": "_systemfield_resume",
+         "humanReadablePath": "Resume",
+         "title": "Resume",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "File",
+         "__autoSerializationID": "FileField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932_9799191b-92a1-49f7-8b40-1cf28acc19c0",
+        "field": {
+         "id": "9799191b-92a1-49f7-8b40-1cf28acc19c0",
+         "path": "9799191b-92a1-49f7-8b40-1cf28acc19c0",
+         "humanReadablePath": "",
+         "title": "GitHub  profile",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Url",
+         "__autoSerializationID": "UrlField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932_d8503b8e-47aa-4629-b846-f51b50d89469",
+        "field": {
+         "id": "d8503b8e-47aa-4629-b846-f51b50d89469",
+         "path": "d8503b8e-47aa-4629-b846-f51b50d89469",
+         "humanReadablePath": "",
+         "title": "Twitter / X profile",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Url",
+         "__autoSerializationID": "UrlField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932_bc4a51d0-a7f3-4d81-ac74-fed1db40954f",
+        "field": {
+         "id": "bc4a51d0-a7f3-4d81-ac74-fed1db40954f",
+         "path": "bc4a51d0-a7f3-4d81-ac74-fed1db40954f",
+         "humanReadablePath": "",
+         "title": "LinkedIn",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Url",
+         "__autoSerializationID": "UrlField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932_53fe0341-a8eb-4ceb-98aa-160ef171ecca",
+        "field": {
+         "id": "53fe0341-a8eb-4ceb-98aa-160ef171ecca",
+         "path": "53fe0341-a8eb-4ceb-98aa-160ef171ecca",
+         "humanReadablePath": "",
+         "title": "Why Initech? What specifically about us caught your attention?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "36d3059f-a2f0-4e71-b6ca-1ac94c87f932_c7ccb9d7-6fd6-418c-8f06-50a13414bd24",
+        "field": {
+         "id": "c7ccb9d7-6fd6-418c-8f06-50a13414bd24",
+         "path": "c7ccb9d7-6fd6-418c-8f06-50a13414bd24",
+         "humanReadablePath": "",
+         "title": "Submit a portfolio of your design and shipped UI work below so we can review - if you don't have a portfolio, a short video walkthrough of your work is fine instead.",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "LongText",
+         "__autoSerializationID": "LongTextField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

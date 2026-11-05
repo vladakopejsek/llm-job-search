@@ -1,0 +1,17 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "includeEntryExports": true,
+  "workspaces": {
+    "packages/core": {
+      "entry": ["src/cli/*.ts!"],
+      "project": ["src/**/*.ts!"]
+    },
+    "apps/queue": {
+      "project": ["server/**/*.ts!", "src/**/*.{ts,tsx,css}!"],
+      "entry": ["server/index.ts!", "src/main.tsx!"]
+    }
+  },
+  "ignoreIssues": {
+    "apps/queue/src/components/ui/**": ["exports", "types"]
+  }
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Job search</title>
+    <meta name="theme-color" content="#09090b" />
+    <!-- The saved theme, before first paint (src/lib/theme.ts keeps it in sync after). -->
+    <script>
+      {
+        let theme = null;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch {}
+        document.documentElement.classList.toggle("dark", theme ? theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

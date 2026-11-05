@@ -1,0 +1,339 @@
+{
+  "offers": [
+    {
+      "country": "Poland",
+      "sharing_title": "System Architect",
+      "position": 131,
+      "category_code": "internet",
+      "title": "System Architect",
+      "close_at": null,
+      "open_questions": [
+        {
+          "id": 2207734,
+          "position": 1,
+          "options": {},
+          "required": true,
+          "body": "Where are you located?",
+          "kind": "string",
+          "translations": {
+            "en": {
+              "body": "Where are you located?"
+            }
+          },
+          "open_question_options": []
+        },
+        {
+          "id": 2207735,
+          "position": 2,
+          "options": {},
+          "required": true,
+          "body": "What are your monthly gross salary expectations for this position? Please type your salary ask in EURO",
+          "kind": "string",
+          "translations": {
+            "en": {
+              "body": "What are your monthly gross salary expectations for this position? Please type your salary ask in EURO"
+            }
+          },
+          "open_question_options": []
+        }
+      ],
+      "mailbox_email": "job.set1w@auditdata.recruitee.com",
+      "max_hours": null,
+      "state_name": "Mazowieckie",
+      "country_code": "PL",
+      "options_cv": "required",
+      "locations": [
+        {
+          "id": 234887,
+          "name": "Poland",
+          "state": "Mazowieckie",
+          "country": "Poland",
+          "city": "remote",
+          "translations": {
+            "en": {
+              "name": "Poland",
+              "city": "remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "14",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 234888,
+          "name": "Poland",
+          "state": "\u015al\u0105skie",
+          "country": "Poland",
+          "city": "remote",
+          "translations": {
+            "en": {
+              "name": "Poland",
+              "city": "remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "24",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 234889,
+          "name": "Poland",
+          "state": "\u0141\u00f3dzkie",
+          "country": "Poland",
+          "city": "remote",
+          "translations": {
+            "en": {
+              "name": "Poland",
+              "city": "remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "10",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 54695,
+          "name": "Poland Remote",
+          "state": "Dolno\u015bl\u0105skie",
+          "country": "Poland",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "Poland Remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "02",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 183532,
+          "name": "Portugal remote",
+          "state": "Lisboa",
+          "country": "Portugal",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "Portugal remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PT",
+          "state_code": "11",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 176188,
+          "name": "EU remote",
+          "state": "Praha, Hlavn\u00ed m\u011bsto",
+          "country": "Czechia",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "EU remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": "This is remote position. Candidate should be based in EU."
+            }
+          },
+          "country_code": "CZ",
+          "state_code": "10",
+          "postal_code": null,
+          "street": null,
+          "note": "This is remote position. Candidate should be based in EU."
+        },
+        {
+          "id": 184139,
+          "name": "Estonia remote",
+          "state": "Harjumaa",
+          "country": "Estonia",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "Estonia remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "EE",
+          "state_code": "37",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 184137,
+          "name": "Lithuania remote",
+          "state": "Vilniaus apskritis",
+          "country": "Lithuania",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "Lithuania remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "LT",
+          "state_code": "VL",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 184138,
+          "name": "Latvia remote",
+          "state": "R\u012bga",
+          "country": "Latvia",
+          "city": "Remote",
+          "translations": {
+            "en": {
+              "name": "Latvia remote",
+              "city": "Remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "LV",
+          "state_code": "RIX",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 234884,
+          "name": "Poland",
+          "state": "Ma\u0142opolskie",
+          "country": "Poland",
+          "city": "Krakow",
+          "translations": {
+            "en": {
+              "name": "Poland",
+              "city": "Krakow",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "12",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        },
+        {
+          "id": 234886,
+          "name": "Poland",
+          "state": "Wielkopolskie",
+          "country": "Poland",
+          "city": "remote",
+          "translations": {
+            "en": {
+              "name": "Poland",
+              "city": "remote",
+              "postal_code": null,
+              "street": null,
+              "note": null
+            }
+          },
+          "country_code": "PL",
+          "state_code": "30",
+          "postal_code": null,
+          "street": null,
+          "note": null
+        }
+      ],
+      "department": "R&D",
+      "published_at": "2026-09-14 12:21:25 UTC",
+      "sharing_image": null,
+      "options_photo": "off",
+      "hybrid": false,
+      "experience_code": "experienced",
+      "locations_question_type": "multiple_choice",
+      "dynamic_fields": [],
+      "postal_code": null,
+      "locations_question": "What is your preferred work location?",
+      "options_title": "off",
+      "careers_apply_url": "https://auditdata.recruitee.com/o/system-architect-3/c/new",
+      "salary": {
+        "max": null,
+        "min": null,
+        "period": null,
+        "currency": null
+      },
+      "options_phone": "required",
+      "requirements": null,
+      "guid": "set1w",
+      "created_at": "2026-09-14 12:18:33 UTC",
+      "cover_image": null,
+      "description": "<p><strong>Location:</strong> EU remote</p><h4><span style=\"color:#5a5f72\">About the Role:</span></h4><p>As a member of Auditdata's Architecture Group, you will join a highly skilled engineering organization building enterprise-grade solutions for audiology clinic chains worldwide. You will shape integrations, domain boundaries, system design, and platform evolution across our SaaS product portfolio.</p><p><strong>Our tech stack</strong> includes .NET, React ecosystem, Azure Servises (AKS, Service Bus, Event Hubs, Azure SQL Database). </p><p style=\"min-height: 1.7em;\"></p><h4><span style=\"color:#5a5f72\">What You Will Do:</span></h4><p><strong>Integration &amp; API Architecture:</strong></p><ul><li><p>Define and maintain Manage\u2019s integration strategy (REST, Events, APIs, Data Feeds).</p></li><li><p>Design standard integration patterns \u2014 real-time (Event Hubs), on-demand (REST), hybrid workflows.</p></li><li><p>Lead technical workshops with customers and partners to gather requirements and define integration approaches.</p></li><li><p>Align integrations with domain boundaries, data contracts, and platform security standards.</p></li><li><p>Govern message contracts, event schemas, versioning strategy, and error-handling models.</p></li><li><p>Enforce security best practices (OAuth2, mTLS, Azure AD, Key Vault).</p></li><li><p>Oversee monitoring, observability, and integration reliability (tracking, retries, DLQs).</p></li></ul><p><strong>Domain &amp; System Architecture:</strong></p><ul><li><p>Serve as the technical consultant for assigned domains, ensuring architectural integrity and consistent domain boundaries.</p></li><li><p>Shape domain models and identify bounded contexts, aggregates, and integration points.</p></li><li><p>Define APIs and event contracts across microservices and cross-domain workflows.</p></li><li><p>Evaluate epics and initiatives for architectural feasibility and appropriate service ownership.</p></li><li><p>Support teams with high-level design, technology selection, and patterns.</p></li><li><p>Participate in architecture reviews and platform governance.</p></li><li><p>Coach teams on DDD, Clean Architecture, and best engineering practices.</p></li><li><p>Maintain architecture diagrams, specifications, interface documentation, and ADRs.</p></li></ul><p><strong>Platform &amp; Multi-Tenancy:</strong></p><ul><li><p>Design and own the architecture of a secure, performant, and cost-efficient multi-tenancy model.</p></li><li><p>Contribute to the long-term architecture vision and support the evolution of the platform strategy.</p></li></ul><p><strong>Customer &amp; Pre-Sales Engagement:</strong></p><ul><li><p>Participate in pre-sales work, technical scoping, and early-stage solution shaping.</p></li><li><p>Support troubleshooting and performance improvements for complex integrations or distributed system issues.</p></li></ul><h4><span style=\"color:#5a5f72\">What You Will Bring:</span></h4><p><u>Technical Skills &amp; Experience:</u></p><ul><li><p>Strong communication skills and the ability to articulate architectural decisions to both leadership and engineering teams.</p></li><li><p>Experience with integration architectures (Azure Service Bus, Event Hubs, Azure Functions, REST APIs, Webhooks).</p></li><li><p>Practical knowledge of <strong>microservices</strong> and <strong>event-driven architectures.</strong></p></li><li><p>Solid understanding of <strong>Domain-Driven Design</strong> and <strong>Clean Architecture.</strong></p></li><li><p>Proven ability to produce high-quality technical documentation and diagrams (Miro, Lucid, C4, Event Catalog).</p></li><li><p>Comfortable in customer-facing technical discussions.</p></li><li><p>Strong background in Azure Cloud services.</p></li><li><p>Ability to enforce architectural standards through ADRs, reviews, and quality gates.</p></li><li><p>Familiarity with governance, audit logging, and proactive system health monitoring.</p></li><li><p>Ability to collaborate with Product and Delivery teams to align architecture with the roadmap and business vision.</p></li><li><p>Fluent English.</p></li></ul><p><u>Preferred:</u></p><ul><li><p>10+ years in software engineering, including 5+ years in architecture roles within enterprise SaaS.</p></li><li><p>Proven experience modernizing or commercializing legacy platforms into scalable, multi-tenant products.</p></li><li><p>Demonstrated success designing enterprise-grade integrations.</p></li><li><p>Degree in Computer Science or a similar field.</p></li></ul><p><u>Nice-to-Haves:</u></p><ul><li><p>Experience with MassTransit.</p></li><li><p>Hands-on experience with AI/ML, LLMs, or agent-based architectures (semantic search, intelligent document processing, workflow automation).</p></li><li><p>Azure Cloud certifications.</p></li><li><p>Strong understanding of security and compliance for medical or regulated data (HIPAA, GDPR).</p></li><li><p>.NET and React familiarity.</p></li></ul><p><u>Key Traits:</u></p><ul><li><p>Strong leadership, ownership, and decision-making skills.</p></li><li><p>Ability to solve complex technical challenges and provide clear direction.</p></li><li><p>A consistent focus on continuous learning \u2014 both personal and team-wide.</p></li><li><p>A mindset that promotes cross-team alignment, technical excellence, and architectural consistency.</p></li></ul><h4><span style=\"color:#5a5f72\">What\u2019s in It for You:</span></h4><ul><li><p>Long-term engagement in a stable, growing SaaS company.</p></li><li><p>High engineering and product standards.</p></li><li><p>Flexible environment with a flat organizational structure.</p></li><li><p>Professional development opportunities, including certification support.</p></li><li><p>A global, diverse, and highly skilled team across Denmark, Ukraine, UK, Poland, Canada, Australia, USA, and more.</p></li><li><p>A culture that values personal growth as much as business outcomes.</p></li></ul><p style=\"min-height: 1.7em;\"></p><p class=\"Paragraph SCXW223518266 BCX8\" style=\"text-align:start;\"><span style=\"color:#5a5f72\">You don\u2019t match the description 100%? Please don\u2019t hold back! We would love to hear from you.\u202f\u202f&nbsp;</span></p><p class=\"Paragraph SCXW223518266 BCX8\" style=\"text-align:start;\"><span style=\"color:#5a5f72\">We\u2019re looking for someone who finds the role challenging and exciting and wants to grow in this role.</span></p><p style=\"text-align:start;\"><span style=\"color:#5a5f72\">We look forward to your application! </span><em><span style=\"color:#5a5f72\">(</span></em><strong><em><span style=\"color:#5a5f72\">please submit your CV in English</span></em></strong><em><span style=\"color:#5a5f72\">)</span></em></p><p style=\"text-align:start;\"><em><span style=\"color:#5a5f72\"><br>Auditdata is an equal opportunity employer that is committed to create diverse work environment free of discrimination and harassment. We make recruiting decisions based on your experience and skills.</span></em></p>",
+      "location_question_visible": true,
+      "locations_question_required": true,
+      "sharing_description": "Location: EU remoteAbout the Role:As a member of Auditdata's Architecture Group, you will join a highly skilled engineering organization building enterprise-grade solutions for audiology clinic chains",
+      "location": "Remote job",
+      "options_salutation": "off",
+      "remote": true,
+      "translations": {
+        "en": {
+          "description": "<p><strong>Location:</strong> EU remote</p><h4><span style=\"color:#5a5f72\">About the Role:</span></h4><p>As a member of Auditdata's Architecture Group, you will join a highly skilled engineering organization building enterprise-grade solutions for audiology clinic chains worldwide. You will shape integrations, domain boundaries, system design, and platform evolution across our SaaS product portfolio.</p><p><strong>Our tech stack</strong> includes .NET, React ecosystem, Azure Servises (AKS, Service Bus, Event Hubs, Azure SQL Database). </p><p style=\"min-height: 1.7em;\"></p><h4><span style=\"color:#5a5f72\">What You Will Do:</span></h4><p><strong>Integration &amp; API Architecture:</strong></p><ul><li><p>Define and maintain Manage\u2019s integration strategy (REST, Events, APIs, Data Feeds).</p></li><li><p>Design standard integration patterns \u2014 real-time (Event Hubs), on-demand (REST), hybrid workflows.</p></li><li><p>Lead technical workshops with customers and partners to gather requirements and define integration approaches.</p></li><li><p>Align integrations with domain boundaries, data contracts, and platform security standards.</p></li><li><p>Govern message contracts, event schemas, versioning strategy, and error-handling models.</p></li><li><p>Enforce security best practices (OAuth2, mTLS, Azure AD, Key Vault).</p></li><li><p>Oversee monitoring, observability, and integration reliability (tracking, retries, DLQs).</p></li></ul><p><strong>Domain &amp; System Architecture:</strong></p><ul><li><p>Serve as the technical consultant for assigned domains, ensuring architectural integrity and consistent domain boundaries.</p></li><li><p>Shape domain models and identify bounded contexts, aggregates, and integration points.</p></li><li><p>Define APIs and event contracts across microservices and cross-domain workflows.</p></li><li><p>Evaluate epics and initiatives for architectural feasibility and appropriate service ownership.</p></li><li><p>Support teams with high-level design, technology selection, and patterns.</p></li><li><p>Participate in architecture reviews and platform governance.</p></li><li><p>Coach teams on DDD, Clean Architecture, and best engineering practices.</p></li><li><p>Maintain architecture diagrams, specifications, interface documentation, and ADRs.</p></li></ul><p><strong>Platform &amp; Multi-Tenancy:</strong></p><ul><li><p>Design and own the architecture of a secure, performant, and cost-efficient multi-tenancy model.</p></li><li><p>Contribute to the long-term architecture vision and support the evolution of the platform strategy.</p></li></ul><p><strong>Customer &amp; Pre-Sales Engagement:</strong></p><ul><li><p>Participate in pre-sales work, technical scoping, and early-stage solution shaping.</p></li><li><p>Support troubleshooting and performance improvements for complex integrations or distributed system issues.</p></li></ul><h4><span style=\"color:#5a5f72\">What You Will Bring:</span></h4><p><u>Technical Skills &amp; Experience:</u></p><ul><li><p>Strong communication skills and the ability to articulate architectural decisions to both leadership and engineering teams.</p></li><li><p>Experience with integration architectures (Azure Service Bus, Event Hubs, Azure Functions, REST APIs, Webhooks).</p></li><li><p>Practical knowledge of <strong>microservices</strong> and <strong>event-driven architectures.</strong></p></li><li><p>Solid understanding of <strong>Domain-Driven Design</strong> and <strong>Clean Architecture.</strong></p></li><li><p>Proven ability to produce high-quality technical documentation and diagrams (Miro, Lucid, C4, Event Catalog).</p></li><li><p>Comfortable in customer-facing technical discussions.</p></li><li><p>Strong background in Azure Cloud services.</p></li><li><p>Ability to enforce architectural standards through ADRs, reviews, and quality gates.</p></li><li><p>Familiarity with governance, audit logging, and proactive system health monitoring.</p></li><li><p>Ability to collaborate with Product and Delivery teams to align architecture with the roadmap and business vision.</p></li><li><p>Fluent English.</p></li></ul><p><u>Preferred:</u></p><ul><li><p>10+ years in software engineering, including 5+ years in architecture roles within enterprise SaaS.</p></li><li><p>Proven experience modernizing or commercializing legacy platforms into scalable, multi-tenant products.</p></li><li><p>Demonstrated success designing enterprise-grade integrations.</p></li><li><p>Degree in Computer Science or a similar field.</p></li></ul><p><u>Nice-to-Haves:</u></p><ul><li><p>Experience with MassTransit.</p></li><li><p>Hands-on experience with AI/ML, LLMs, or agent-based architectures (semantic search, intelligent document processing, workflow automation).</p></li><li><p>Azure Cloud certifications.</p></li><li><p>Strong understanding of security and compliance for medical or regulated data (HIPAA, GDPR).</p></li><li><p>.NET and React familiarity.</p></li></ul><p><u>Key Traits:</u></p><ul><li><p>Strong leadership, ownership, and decision-making skills.</p></li><li><p>Ability to solve complex technical challenges and provide clear direction.</p></li><li><p>A consistent focus on continuous learning \u2014 both personal and team-wide.</p></li><li><p>A mindset that promotes cross-team alignment, technical excellence, and architectural consistency.</p></li></ul><h4><span style=\"color:#5a5f72\">What\u2019s in It for You:</span></h4><ul><li><p>Long-term engagement in a stable, growing SaaS company.</p></li><li><p>High engineering and product standards.</p></li><li><p>Flexible environment with a flat organizational structure.</p></li><li><p>Professional development opportunities, including certification support.</p></li><li><p>A global, diverse, and highly skilled team across Denmark, Ukraine, UK, Poland, Canada, Australia, USA, and more.</p></li><li><p>A culture that values personal growth as much as business outcomes.</p></li></ul><p style=\"min-height: 1.7em;\"></p><p class=\"Paragraph SCXW223518266 BCX8\" style=\"text-align:start;\"><span style=\"color:#5a5f72\">You don\u2019t match the description 100%? Please don\u2019t hold back! We would love to hear from you.\u202f\u202f&nbsp;</span></p><p class=\"Paragraph SCXW223518266 BCX8\" style=\"text-align:start;\"><span style=\"color:#5a5f72\">We\u2019re looking for someone who finds the role challenging and exciting and wants to grow in this role.</span></p><p style=\"text-align:start;\"><span style=\"color:#5a5f72\">We look forward to your application! </span><em><span style=\"color:#5a5f72\">(</span></em><strong><em><span style=\"color:#5a5f72\">please submit your CV in English</span></em></strong><em><span style=\"color:#5a5f72\">)</span></em></p><p style=\"text-align:start;\"><em><span style=\"color:#5a5f72\"><br>Auditdata is an equal opportunity employer that is committed to create diverse work environment free of discrimination and harassment. We make recruiting decisions based on your experience and skills.</span></em></p>",
+          "title": "System Architect",
+          "highlight": null,
+          "requirements": null,
+          "sharing_image": null,
+          "locations_question": "What is your preferred work location?",
+          "sharing_description": "Location: EU remoteAbout the Role:As a member of Auditdata's Architecture Group, you will join a highly skilled engineering organization building enterprise-grade solutions for audiology clinic chains",
+          "sharing_title": "System Architect"
+        }
+      },
+      "min_hours": null,
+      "company_name": "Auditdata",
+      "careers_url": "https://auditdata.recruitee.com/o/system-architect-3",
+      "id": 2745178,
+      "slug": "system-architect-3",
+      "city": "remote",
+      "highlight": null,
+      "education_code": "bachelor_degree",
+      "state_code": "14",
+      "employment_type_code": "fulltime_permanent",
+      "updated_at": "2026-09-22 07:48:52 UTC",
+      "on_site": false,
+      "status": "published",
+      "max_hours_per_week": null,
+      "options_cover_letter": "optional",
+      "tags": [],
+      "min_hours_per_week": null
+    }
+  ]
+}

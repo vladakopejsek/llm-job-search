@@ -1,0 +1,30 @@
+{
+  "home": {
+    "country": "Portugal",
+    "places": [
+      "Portugal",
+      "Lisbon",
+      "Lisboa",
+      "Porto",
+      "Oporto",
+      "Braga",
+      "Coimbra",
+      "Aveiro",
+      "Setúbal",
+      "Leiria",
+      "Faro",
+      "Évora",
+      "Guimarães",
+      "Funchal",
+      "Madeira",
+      "Azores",
+      "Açores"
+    ],
+    "codes": ["PT", "PRT"],
+    "currency": "EUR"
+  },
+  "officeCities": ["Lisbon", "Lisboa", "Porto", "Oporto"],
+  "languages": ["Portuguese"],
+  "titleWords": ["programador", "desenvolvedor", "engenheiro de software"],
+  "workday": { "countries": ["Portugal"], "places": ["PRT", "Lisbon", "Lisboa", "Porto"] }
+}

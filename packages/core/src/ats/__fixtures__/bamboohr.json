@@ -1,0 +1,238 @@
+{
+  "https://draslovka.bamboohr.com/careers/list": {
+    "meta": {
+      "totalCount": 5
+    },
+    "result": [
+      {
+        "id": "357",
+        "jobOpeningName": "Maintenance Reliability Engineer",
+        "departmentId": "19046",
+        "departmentLabel": "Reliability & MIQA",
+        "employmentStatusLabel": "US Exempt",
+        "employmentType": null,
+        "location": {
+          "city": "Memphis",
+          "state": "Tennessee"
+        },
+        "atsLocation": {
+          "country": null,
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "0"
+      },
+      {
+        "id": "360",
+        "jobOpeningName": "Business Analyst (FP&A analyst)",
+        "departmentId": "18606",
+        "departmentLabel": "Finance",
+        "employmentStatusLabel": "Full-Time",
+        "employmentType": null,
+        "location": {
+          "city": "Prague",
+          "state": "Prague"
+        },
+        "atsLocation": {
+          "country": null,
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "0"
+      },
+      {
+        "id": "361",
+        "jobOpeningName": "Senior Back-End Engineer (South Africa - Remote)",
+        "departmentId": "18658",
+        "departmentLabel": "Engineering",
+        "employmentStatusLabel": "Full-Time",
+        "employmentType": null,
+        "location": {
+          "city": null,
+          "state": null
+        },
+        "atsLocation": {
+          "country": "South Africa",
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "1"
+      },
+      {
+        "id": "362",
+        "jobOpeningName": "Senior Back-End Engineer (Czech Republic)",
+        "departmentId": "18658",
+        "departmentLabel": "Engineering",
+        "employmentStatusLabel": "Full-Time",
+        "employmentType": null,
+        "location": {
+          "city": "Prague",
+          "state": "Prague"
+        },
+        "atsLocation": {
+          "country": null,
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "2"
+      },
+      {
+        "id": "368",
+        "jobOpeningName": "Chemical Operator",
+        "departmentId": "18583",
+        "departmentLabel": "Operations",
+        "employmentStatusLabel": "US Union",
+        "employmentType": null,
+        "location": {
+          "city": "Memphis",
+          "state": "Tennessee"
+        },
+        "atsLocation": {
+          "country": null,
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "0"
+      }
+    ]
+  },
+  "https://draslovka.bamboohr.com/careers/361/detail": {
+    "meta": {},
+    "result": {
+      "jobOpening": {
+        "jobOpeningShareUrl": "https://draslovka.bamboohr.com/careers/361",
+        "jobOpeningName": "Senior Back-End Engineer (South Africa - Remote)",
+        "jobOpeningStatus": "Open",
+        "jobCategoryId": null,
+        "departmentId": "18658",
+        "departmentLabel": "Engineering",
+        "employmentStatusLabel": "Full-Time",
+        "employmentType": null,
+        "location": {
+          "city": null,
+          "state": null,
+          "postalCode": null,
+          "addressCountry": null
+        },
+        "atsLocation": {
+          "country": "South Africa",
+          "countryId": "191",
+          "state": null,
+          "city": null
+        },
+        "description": "<p><span style=\"font-size: 12pt\"><span style=\"font-weight: bold\">We are Draslovka</span>  </span></p>\n<p><span style=\"font-size: 12pt\">Draslovka is expanding our Mining Solutions service offering with an industry-breaking SaaS, Machine learning product (AI), and we are looking for passionate professionals who can make this happen. The final product will have a significant impact and will make a mark in the transition to a new energy future for our society.    </span></p>\n<ul>\n<li><span style=\"font-size: 12pt\">Excellent knowledge of Python and its ecosystem.</span></li>\n<li><span style=\"font-size: 12pt\">Autonomy and flexibility – Choose how you work with hybrid options, empowering you to work both on-site and remotely.</span></li>\n</ul>",
+        "compensation": null,
+        "datePosted": "2026-10-08",
+        "minimumExperience": "Experienced",
+        "locationType": "1",
+        "seekPromoted": false,
+        "aiProcessingDisclosureEnabled": false
+      }
+    }
+  },
+  "https://draslovka.bamboohr.com/careers/362/detail": {
+    "meta": {},
+    "result": {
+      "jobOpening": {
+        "jobOpeningShareUrl": "https://draslovka.bamboohr.com/careers/362",
+        "jobOpeningName": "Senior Back-End Engineer (Czech Republic)",
+        "jobOpeningStatus": "Open",
+        "jobCategoryId": null,
+        "departmentId": "18658",
+        "departmentLabel": "Engineering",
+        "employmentStatusLabel": "Full-Time",
+        "employmentType": null,
+        "location": {
+          "city": "Prague",
+          "state": "Prague",
+          "postalCode": "160 00",
+          "addressCountry": "Czech Republic"
+        },
+        "atsLocation": {
+          "country": null,
+          "countryId": null,
+          "state": null,
+          "city": null
+        },
+        "description": "<p><span style=\"font-size: 12pt\"><span style=\"font-weight: bold\">We are Draslovka</span>  </span></p>\n<p><span style=\"font-size: 12pt\">Draslovka is expanding our Mining Solutions service offering with an industry-breaking SaaS, Machine learning product (AI), and we are looking for passionate professionals who can make this happen. The final product will have a significant impact and will make a mark in the transition to a new energy future for our society.    </span></p>\n<ul>\n<li><span style=\"font-size: 12pt\">Excellent knowledge of Python and its ecosystem.</span></li>\n<li><span style=\"font-size: 12pt\">Autonomy and flexibility – Choose how you work with hybrid options, empowering you to work both on-site and remotely.</span></li>\n</ul>",
+        "compensation": null,
+        "datePosted": "2026-10-08",
+        "minimumExperience": "Experienced",
+        "locationType": "2",
+        "seekPromoted": false,
+        "aiProcessingDisclosureEnabled": false
+      }
+    }
+  },
+  "https://afternow.bamboohr.com/careers/list": {
+    "meta": {
+      "totalCount": 1
+    },
+    "result": [
+      {
+        "id": "62",
+        "jobOpeningName": "Senior Backend Developer (Java/Spring Boot)",
+        "departmentId": "18580",
+        "departmentLabel": "Development",
+        "employmentStatusLabel": "Contractor",
+        "employmentType": null,
+        "location": {
+          "city": "Europe",
+          "state": "Remote"
+        },
+        "atsLocation": {
+          "country": null,
+          "state": null,
+          "province": null,
+          "city": null
+        },
+        "isRemote": null,
+        "locationType": "0"
+      }
+    ]
+  },
+  "https://afternow.bamboohr.com/careers/62/detail": {
+    "meta": {},
+    "result": {
+      "jobOpening": {
+        "jobOpeningShareUrl": "https://afternow.bamboohr.com/careers/62",
+        "jobOpeningName": "Senior Backend Developer (Java/Spring Boot)",
+        "jobOpeningStatus": "Open",
+        "jobCategoryId": null,
+        "departmentId": "18580",
+        "departmentLabel": "Development",
+        "employmentStatusLabel": "Contractor",
+        "employmentType": null,
+        "location": {
+          "city": "Europe",
+          "state": "Remote",
+          "postalCode": "51500",
+          "addressCountry": "Croatia (Hrvatska)"
+        },
+        "atsLocation": {
+          "country": null,
+          "countryId": null,
+          "state": null,
+          "city": null
+        },
+        "description": "<p><span style=\"color: rgba(0, 0, 0, 0.9); font-size: 14pt; font-weight: bold\">Quick Summary</span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">🕛<span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-weight: bold\">Hours:</span><span style=\"color: rgba(0, 0, 0, 0.9)\"><span> </span>Full-time</span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">🌎<span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-weight: bold\">Location:</span><span style=\"color: rgba(0, 0, 0, 0.9)\"><span> </span>Fully remote</span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">🇪🇺<span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-weight: bold\">Time Zone:</span><span style=\"color: rgba(0, 0, 0, 0.9)\"><span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-size: 12pt\">Looking for people in Europe or LATAM</span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">🇬🇧<span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-weight: bold\">Language:</span><span style=\"color: rgba(0, 0, 0, 0.9)\"><span> Professional English required. Spanish is a strong bonus.</span></span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">🤠<span> <span style=\"font-weight: bold\">5+ years of experience</span> in backend engineering. Expert-level <span style=\"font-weight: bold\">Java 21</span> (LTS), <span style=\"font-weight: bold\">Spring Boot</span> 3.2+, and <span style=\"font-weight: bold\">PostgreSQL</span>. Experience with Event-Driven Architecture and DDD is required.<br>✈️ <span style=\"font-weight: bold\">Travel:</span> Occasional travel to client sites in LATAM may be required, usually for a few days up to one week every few months.</span></span><br><span style=\"color: rgba(0, 0, 0, 0.9)\">💸<span> </span></span><span style=\"color: rgba(0, 0, 0, 0.9); font-weight: bold\">Salary Range:</span><span style=\"color: rgba(0, 0, 0, 0.9)\"><span> </span>€3,000 - €4,000/month gross (dependent on experience level), B2B contract</span><br></p>",
+        "compensation": "Gross (B2B) 3000€ ~ 4000€ / month",
+        "datePosted": "2025-09-26",
+        "minimumExperience": "Experienced",
+        "locationType": "0",
+        "seekPromoted": false,
+        "aiProcessingDisclosureEnabled": false
+      }
+    }
+  }
+}

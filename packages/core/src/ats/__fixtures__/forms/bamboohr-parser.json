@@ -1,0 +1,244 @@
+{
+  "meta": {},
+  "result": {
+    "formFields": {
+      "firstName": {
+        "isRequired": true,
+        "value": "",
+        "label": "First Name"
+      },
+      "lastName": {
+        "isRequired": true,
+        "value": "",
+        "label": "Last Name"
+      },
+      "email": {
+        "isRequired": true,
+        "value": "",
+        "label": "Email"
+      },
+      "phone": {
+        "isRequired": true,
+        "value": "",
+        "label": "Phone"
+      },
+      "streetAddress": {
+        "isRequired": true,
+        "value": "",
+        "label": "Address"
+      },
+      "city": {
+        "isRequired": true,
+        "value": "",
+        "label": "City"
+      },
+      "state": {
+        "isRequired": true,
+        "value": "",
+        "label": "State",
+        "options": []
+      },
+      "zip": {
+        "isRequired": true,
+        "value": "",
+        "label": "ZIP"
+      },
+      "countryId": {
+        "isRequired": true,
+        "value": "",
+        "label": "Country",
+        "options": [
+          {
+            "id": "1",
+            "text": "United States"
+          },
+          {
+            "id": "2",
+            "text": "Canada"
+          }
+        ]
+      },
+      "linkedinUrl": {
+        "isRequired": true,
+        "value": "",
+        "label": "LinkedIn URL"
+      },
+      "dateAvailable": {
+        "isRequired": true,
+        "value": "",
+        "label": "Date Available"
+      },
+      "desiredPay": {
+        "isRequired": true,
+        "value": "",
+        "label": "Desired Pay"
+      },
+      "websiteUrl": {
+        "isRequired": false,
+        "value": "",
+        "label": "Website, Blog or Portfolio"
+      },
+      "resumeFileId": {
+        "isRequired": true,
+        "value": "",
+        "label": "Resume"
+      },
+      "customQuestions": [
+        {
+          "id": "1944",
+          "isRequired": true,
+          "question": "Have you ever been employed by Parser?",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1945",
+          "isRequired": true,
+          "question": "Are you aware of any personal, professional, or business circumstances or relationships that could represent a conflict of interest with this position (ie.: personal or financial interests, activities that conflict with Parser’s core interests)?",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1946",
+          "isRequired": true,
+          "question": "Will you now or in the future require any kind of sponsorship to work in the country of application? ",
+          "type": "yes_no",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1947",
+          "isRequired": false,
+          "question": "At Parser, we are committed to fostering an inclusive workplace built on respect, diversity, and equal opportunity for all. We believe that a wide range of perspectives, backgrounds, and experiences strengthens our teams and drives innovation. The information below is provided on a voluntary basis and will be used solely to support our diversity, equity, inclusion, and accessibility initiatives, in accordance with applicable laws and privacy requirements. Choosing not to disclose this information will not affect your application or employment opportunities in any way. Do you require any specific accommodations or support to perform your work effectively?",
+          "type": "multi",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": [
+            {
+              "id": 1161,
+              "option": "Yes"
+            },
+            {
+              "id": 1162,
+              "option": "No"
+            },
+            {
+              "id": 1163,
+              "option": "Prefer not to say"
+            }
+          ]
+        },
+        {
+          "id": "1948",
+          "isRequired": true,
+          "question": "At Parser, we are committed to fostering an inclusive workplace built on respect, diversity, and equal opportunity for all. We believe that a wide range of perspectives, backgrounds, and experiences strengthens our teams and drives innovation. The information below is provided on a voluntary basis and will be used solely to support our diversity, equity, inclusion, and accessibility initiatives, in accordance with applicable laws and privacy requirements. Choosing not to disclose this information will not affect your application or employment opportunities in any way. What’s your legal gender?:",
+          "type": "multi",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": [
+            {
+              "id": 1164,
+              "option": "Male"
+            },
+            {
+              "id": 1165,
+              "option": "Female"
+            },
+            {
+              "id": 1166,
+              "option": "Non-binary"
+            },
+            {
+              "id": 1167,
+              "option": "Prefer not to say"
+            }
+          ]
+        },
+        {
+          "id": "1949",
+          "isRequired": true,
+          "question": "I hereby certify that all of the information provided by me in this application (or any other accompanying documents) is true, accurate, and complete to the best of my knowledge. I understand that any misrepresentation, falsification, or material omission of information may result in the rejection of my employment",
+          "type": "checkbox",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1950",
+          "isRequired": true,
+          "question": "I acknowledge that Parser does not support the use of AI during the interview process to ensure that I can follow the security best practices.",
+          "type": "checkbox",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1951",
+          "isRequired": true,
+          "question": "How many years of experience do you have in Python?",
+          "type": "short",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1954",
+          "isRequired": true,
+          "question": "Do you have previous experience building maintainable production services and REST APIs?",
+          "type": "short",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1952",
+          "isRequired": true,
+          "question": "Which cloud services are you most experienced with?",
+          "type": "short",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1953",
+          "isRequired": true,
+          "question": "Do you have experience working with SQL and NoSQL database systems?",
+          "type": "short",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        },
+        {
+          "id": "1955",
+          "isRequired": true,
+          "question": "Do you have previous experience integrating LLM-based or other AI features into backend services?",
+          "type": "short",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": []
+        }
+      ],
+      "genderId": [],
+      "ethnicityId": [],
+      "veteranStatusId": [],
+      "disabilityId": []
+    }
+  }
+}

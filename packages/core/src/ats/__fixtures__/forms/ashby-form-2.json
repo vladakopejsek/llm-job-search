@@ -1,0 +1,163 @@
+{
+ "data": {
+  "jobPosting": {
+   "applicationForm": {
+    "sections": [
+     {
+      "title": null,
+      "descriptionHtml": null,
+      "fieldEntries": [
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88__systemfield_name",
+        "field": {
+         "id": "64c1c1f1-fe0d-46f6-b876-a1ad9a96c79c",
+         "path": "_systemfield_name",
+         "humanReadablePath": "Name",
+         "title": "Name",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88__systemfield_email",
+        "field": {
+         "id": "0c37133e-a23c-4be7-9b52-b5492944f5f2",
+         "path": "_systemfield_email",
+         "humanReadablePath": "Email",
+         "title": "Email",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Email",
+         "__autoSerializationID": "EmailField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88_225efc63-20f5-499d-9208-2b7ccf20003f",
+        "field": {
+         "id": "fec7691f-d9af-46de-a59b-4645a85d59b3",
+         "path": "225efc63-20f5-499d-9208-2b7ccf20003f",
+         "humanReadablePath": "",
+         "title": "Phone number",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Phone",
+         "__autoSerializationID": "PhoneField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88__systemfield_location",
+        "field": {
+         "id": "372ba9d8-55f9-40b9-a108-5cd22b353927",
+         "path": "_systemfield_location",
+         "humanReadablePath": "Location",
+         "title": "Location",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "Location",
+         "locationTypes": [
+          "Country"
+         ],
+         "__autoSerializationID": "LocationField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88_84b597f2-d655-4d20-8d36-99160570f771",
+        "field": {
+         "id": "9856952e-01c3-4c0d-a7a2-ee901e117535",
+         "path": "84b597f2-d655-4d20-8d36-99160570f771",
+         "humanReadablePath": "",
+         "title": "LinkedIn ",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88_a6bff84c-e0ba-49f9-8aec-ae376abe1daf",
+        "field": {
+         "id": "81426156-4327-4808-9d01-ea6941aa2b1b",
+         "path": "a6bff84c-e0ba-49f9-8aec-ae376abe1daf",
+         "humanReadablePath": "",
+         "title": "How did you first discover Hooli?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88_0374c7ff-3bfe-431c-af51-56cf5b700c26",
+        "field": {
+         "id": "81426156-4327-4808-9d01-ea6941aa2b1b",
+         "path": "0374c7ff-3bfe-431c-af51-56cf5b700c26",
+         "humanReadablePath": "",
+         "title": "Where did you find out about this position?",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "String",
+         "__autoSerializationID": "StringField"
+        },
+        "isRequired": true,
+        "descriptionHtml": null
+       },
+       {
+        "id": "6d3479c6-997d-42ed-bd0d-d6d747d38e88__systemfield_resume",
+        "field": {
+         "id": "bbc5e79d-b442-437d-b538-351c8f460a2e",
+         "path": "_systemfield_resume",
+         "humanReadablePath": "Resume",
+         "title": "Resume",
+         "isNullable": false,
+         "isPrivate": false,
+         "isDeactivated": false,
+         "isMany": false,
+         "metadata": {},
+         "type": "File",
+         "__autoSerializationID": "FileField"
+        },
+        "isRequired": false,
+        "descriptionHtml": null
+       }
+      ]
+     }
+    ]
+   }
+  }
+ }
+}

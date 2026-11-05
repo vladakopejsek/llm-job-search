@@ -1,0 +1,180 @@
+{
+  "meta": {},
+  "result": {
+    "formFields": {
+      "firstName": {
+        "isRequired": true,
+        "value": "",
+        "label": "First Name"
+      },
+      "lastName": {
+        "isRequired": true,
+        "value": "",
+        "label": "Last Name"
+      },
+      "email": {
+        "isRequired": true,
+        "value": "",
+        "label": "Email"
+      },
+      "phone": {
+        "isRequired": true,
+        "value": "",
+        "label": "Phone"
+      },
+      "streetAddress": {
+        "isRequired": true,
+        "value": "",
+        "label": "Address"
+      },
+      "city": {
+        "isRequired": true,
+        "value": "",
+        "label": "City"
+      },
+      "state": {
+        "isRequired": true,
+        "value": "",
+        "label": "State",
+        "options": []
+      },
+      "zip": {
+        "isRequired": true,
+        "value": "",
+        "label": "ZIP"
+      },
+      "countryId": {
+        "isRequired": true,
+        "value": "188",
+        "label": "Country",
+        "options": [
+          {
+            "id": "1",
+            "text": "United States"
+          },
+          {
+            "id": "2",
+            "text": "Canada"
+          }
+        ]
+      },
+      "linkedinUrl": {
+        "isRequired": false,
+        "value": "",
+        "label": "LinkedIn URL"
+      },
+      "dateAvailable": {
+        "isRequired": true,
+        "value": "",
+        "label": "Date Available"
+      },
+      "desiredPay": {
+        "isRequired": true,
+        "value": "",
+        "label": "Desired Pay"
+      },
+      "coverLetterFileId": {
+        "isRequired": false,
+        "value": "",
+        "label": "Cover Letter"
+      },
+      "websiteUrl": {
+        "isRequired": false,
+        "value": "",
+        "label": "Website, Blog or Portfolio"
+      },
+      "resumeFileId": {
+        "isRequired": true,
+        "value": "",
+        "label": "Resume"
+      },
+      "customQuestions": [
+        {
+          "id": "369",
+          "isRequired": true,
+          "question": "Do you have English language skills?",
+          "type": "multi",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": [
+            {
+              "id": 936,
+              "option": "No"
+            },
+            {
+              "id": 937,
+              "option": "Yes, A1: Beginner"
+            },
+            {
+              "id": 938,
+              "option": "Yes, A2: Basics"
+            },
+            {
+              "id": 939,
+              "option": "Yes: B1 lower average"
+            },
+            {
+              "id": 940,
+              "option": "Yes, B2: upper average"
+            },
+            {
+              "id": 941,
+              "option": "Yes, C1: professional"
+            },
+            {
+              "id": 942,
+              "option": "Yes, C2: perfect"
+            }
+          ]
+        },
+        {
+          "id": "370",
+          "isRequired": true,
+          "question": "Do you have a current valid working permission for the Slovak Republic or an EU/EEA citizenship? (3 options)",
+          "type": "multi",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "yes",
+          "options": [
+            {
+              "id": 943,
+              "option": "Yes,  I'm an EU citizen"
+            },
+            {
+              "id": 944,
+              "option": "Yes,  I have an other kind of work permit"
+            },
+            {
+              "id": 945,
+              "option": "No,  I need support in this case"
+            }
+          ]
+        },
+        {
+          "id": "371",
+          "isRequired": true,
+          "question": " Do you currently live in Bratislava area or you are willing to move here to be in the office onsite on a regular base?",
+          "type": "multi",
+          "value": "",
+          "isValueOther": false,
+          "hasOther": "no",
+          "options": [
+            {
+              "id": 946,
+              "option": "Yes"
+            },
+            {
+              "id": 947,
+              "option": "No"
+            }
+          ]
+        }
+      ],
+      "genderId": [],
+      "ethnicityId": [],
+      "veteranStatusId": [],
+      "disabilityId": []
+    }
+  }
+}

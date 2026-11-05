@@ -1,0 +1,386 @@
+{
+ "absolute_url": "https://job-boards.eu.greenhouse.io/globex/jobs/4000000001",
+ "data_compliance": [
+  {
+   "type": "gdpr",
+   "requires_consent": false,
+   "requires_processing_consent": false,
+   "requires_retention_consent": false,
+   "retention_period": null,
+   "demographic_data_consent_applies": true
+  }
+ ],
+ "internal_job_id": 4323961101,
+ "location": {
+  "name": "Remote, Spain"
+ },
+ "metadata": null,
+ "id": 4000000001,
+ "updated_at": "2026-09-16T12:06:00-04:00",
+ "requisition_id": "1014-1",
+ "title": " Engineering Manager",
+ "company_name": "Globex",
+ "first_published": "2026-09-16T12:06:00-04:00",
+ "language": "en",
+ "application_deadline": null,
+ "content": "(trimmed)",
+ "departments": [
+  {
+   "id": 4000804101,
+   "name": "Pool: Engineering",
+   "child_ids": [
+    4006893101
+   ],
+   "parent_id": null
+  }
+ ],
+ "offices": [
+  {
+   "id": 4000339101,
+   "name": "Globex Headquaters ",
+   "location": "Lagos, Nigeria",
+   "child_ids": [
+    4002233101,
+    4000392101,
+    4000822101,
+    4000823101,
+    4000824101,
+    4000825101,
+    4000821101,
+    4000820101,
+    4000819101,
+    4000817101,
+    4000816101,
+    4000815101,
+    4000814101,
+    4000826101,
+    4000827101,
+    4000828101,
+    4000829101,
+    4000830101,
+    4000831101,
+    4000832101,
+    4000833101,
+    4000834101,
+    4000835101,
+    4000836101,
+    4000837101,
+    4000838101,
+    4000839101,
+    4000840101,
+    4000841101,
+    4000842101,
+    4000843101,
+    4000844101,
+    4000845101,
+    4000846101,
+    4000847101,
+    4000848101,
+    4000812101,
+    4000813101,
+    4000818101
+   ],
+   "parent_id": null
+  }
+ ],
+ "ai_disclaimer": null,
+ "include_ai_disclaimer": null,
+ "ai_opt_out_request_url": null,
+ "compliance": null,
+ "demographic_questions": {
+  "header": "Help Us Support Diversity at Globex",
+  "description": "<p>At Globex, we are committed to fostering a diverse and inclusive work environment. We do not discriminate based on gender identity, orientation, or other personal characteristics. To help us track and improve our recruitment efforts and ensure we are meeting our gender inclusion goals, we kindly ask you to answer the following demographic questions. Your responses are voluntary and will not impact your application in any way. Thank you for helping us build a more inclusive team</p>",
+  "questions": [
+   {
+    "id": 4006850101,
+    "label": "What is your gender?",
+    "required": true,
+    "type": "multi_value_single_select",
+    "answer_options": [
+     {
+      "id": 4041748101,
+      "label": "Male",
+      "free_form": false,
+      "decline_to_answer": false
+     },
+     {
+      "id": 4041749101,
+      "label": "Female ",
+      "free_form": false,
+      "decline_to_answer": false
+     },
+     {
+      "id": 4041750101,
+      "label": "Non-binary ",
+      "free_form": false,
+      "decline_to_answer": false
+     },
+     {
+      "id": 4041751101,
+      "label": "I don't wish to answer",
+      "free_form": false,
+      "decline_to_answer": true
+     },
+     {
+      "id": 4041752101,
+      "label": "Prefer to Self-Describe",
+      "free_form": true,
+      "decline_to_answer": false
+     }
+    ]
+   }
+  ]
+ },
+ "questions": [
+  {
+   "description": null,
+   "label": "First Name",
+   "required": true,
+   "fields": [
+    {
+     "name": "first_name",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Last Name",
+   "required": true,
+   "fields": [
+    {
+     "name": "last_name",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Email",
+   "required": true,
+   "fields": [
+    {
+     "name": "email",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Phone",
+   "required": true,
+   "fields": [
+    {
+     "name": "phone",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Resume/CV",
+   "required": true,
+   "fields": [
+    {
+     "name": "resume",
+     "type": "input_file",
+     "values": []
+    },
+    {
+     "name": "resume_text",
+     "type": "textarea",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Cover Letter",
+   "required": false,
+   "fields": [
+    {
+     "name": "cover_letter",
+     "type": "input_file",
+     "values": []
+    },
+    {
+     "name": "cover_letter_text",
+     "type": "textarea",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "LinkedIn Profile",
+   "required": false,
+   "fields": [
+    {
+     "name": "question_9664302101",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Website",
+   "required": false,
+   "fields": [
+    {
+     "name": "question_9664303101",
+     "type": "input_text",
+     "values": []
+    }
+   ]
+  },
+  {
+   "description": "<p>Please select to give us consent to process your data for recruiting purposes. Your data will be stored for 365 days before being deleted and you have the right to request its deletion at any time, as outlined in our <a href=\"https://example.com/recruitment-privacy-policy\" target=\"_blank\" rel=\"noopener\">privacy policy</a>.&nbsp;</p>",
+   "label": "NDPA Consent",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664304101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "I consent to Globex processing my data for recruitment purposes.",
+       "value": 71950170101
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Have you previously been employed by Globex?",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664305101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Do you have 8+ years of hands-on software engineering experience, including building and scaling production backend systems? \n\n",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664306101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Have you spent at least 5 years working with Java and Spring Boot in production environments?\n",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664307101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Do you have 3+ years of experience leading engineering teams and owning delivery outcomes? \n\n",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664308101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Have you played a significant engineering role in building and scaling consumer-facing products (such as fintech, payments, banking, cards, or lending platforms)? \n",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664309101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "description": null,
+   "label": "Do you have hands-on experience owning services in production, including CI/CD, monitoring/observability, and leading incident RCA? ",
+   "required": true,
+   "fields": [
+    {
+     "name": "question_9664310101",
+     "type": "multi_value_single_select",
+     "values": [
+      {
+       "label": "Yes",
+       "value": 1
+      },
+      {
+       "label": "No",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "location_questions": []
+}

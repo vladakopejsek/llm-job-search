@@ -1,0 +1,131 @@
+{
+  "total": 72,
+  "jobPostings": [
+    {
+      "title": "Senior Legal Counsel (m/f/n)",
+      "externalPath": "/job/Bratislava/Senior-Legal-Counsel--m-f-n-_JR-06158",
+      "locationsText": "Bratislava",
+      "postedOn": "Posted Today",
+      "bulletFields": [
+        "JR-06158"
+      ]
+    },
+    {
+      "title": "Senior AI Enablement Software Engineer (m/f/n)",
+      "externalPath": "/job/Bratislava/AI-Enablement-Software-Engineer_JR-06088",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 3 Days Ago",
+      "bulletFields": [
+        "JR-06088"
+      ]
+    }
+  ],
+  "facets": [
+    {
+      "facetParameter": "CF_EMI_Multiple_Job_Posting_Job_Categories_from_Job_Profile_Extended",
+      "descriptor": "Job Category",
+      "values": [
+        {
+          "descriptor": "Sales",
+          "id": "b37b51fe8a261000a3bdd58573460000",
+          "count": 20
+        },
+        {
+          "descriptor": "SW Research & Development",
+          "id": "84230947d4161000a3d48b19164a0000",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "facetParameter": "timeType",
+      "descriptor": "Job Type",
+      "values": [
+        {
+          "descriptor": "Full time",
+          "id": "86a72736130a1073028d14787cf21002",
+          "count": 67
+        },
+        {
+          "descriptor": "Part time",
+          "id": "86a72736130a1073028d147637d51001",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "facetParameter": "locationMainGroup",
+      "values": [
+        {
+          "facetParameter": "locationHierarchy1",
+          "descriptor": "Region",
+          "values": [
+            {
+              "descriptor": "Asia",
+              "id": "84230947d416100075ff9cf138c90000",
+              "count": 4
+            },
+            {
+              "descriptor": "Europe",
+              "id": "b37b51fe8a2610007609c5e1373f0000",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "facetParameter": "locationHierarchy2",
+          "descriptor": "Country",
+          "values": [
+            {
+              "descriptor": "Argentina",
+              "id": "cefa4adabe0710020430f694f82f0000",
+              "count": 2
+            },
+            {
+              "descriptor": "Czech Republic",
+              "id": "cefa4adabe07100204b7ece2e81b0000",
+              "count": 18
+            },
+            {
+              "descriptor": "Germany",
+              "id": "76c4ba103913100204be14b567930000",
+              "count": 1
+            },
+            {
+              "descriptor": "Slovakia",
+              "id": "b37b51fe8a261000752d344a49010000",
+              "count": 34
+            }
+          ]
+        },
+        {
+          "facetParameter": "locations",
+          "descriptor": "Locations",
+          "values": [
+            {
+              "descriptor": "Bratislava",
+              "id": "76c4ba103913100202752e0fd4550000",
+              "count": 32
+            },
+            {
+              "descriptor": "Brno",
+              "id": "76c4ba1039131002024fecbfb0320000",
+              "count": 13
+            },
+            {
+              "descriptor": "Munich",
+              "id": "561e51ca7f0210d9875c701215e7862d",
+              "count": 1
+            },
+            {
+              "descriptor": "Prague",
+              "id": "76c4ba1039131002022dd884bcf40000",
+              "count": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "userAuthenticated": false
+}

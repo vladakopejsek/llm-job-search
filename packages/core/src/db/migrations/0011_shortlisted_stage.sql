@@ -1,0 +1,1 @@
+ALTER TYPE "public"."application_stage" ADD VALUE 'shortlisted' BEFORE 'applied';

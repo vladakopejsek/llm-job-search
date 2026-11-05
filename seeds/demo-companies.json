@@ -1,0 +1,38 @@
+[
+  {
+    "company": "Dash0",
+    "ats": "Ashby",
+    "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/dash0",
+    "boardUrl": "https://jobs.ashbyhq.com/dash0",
+    "priority": "A",
+    "status": "Active",
+    "notes": "Demo seed"
+  },
+  {
+    "company": "PostHog",
+    "ats": "Ashby",
+    "feedUrl": "https://api.ashbyhq.com/posting-api/job-board/posthog",
+    "boardUrl": "https://jobs.ashbyhq.com/posthog",
+    "priority": "A",
+    "status": "Active",
+    "notes": "Demo seed"
+  },
+  {
+    "company": "Contentful",
+    "ats": "Greenhouse",
+    "feedUrl": "https://boards-api.greenhouse.io/v1/boards/contentful/jobs",
+    "boardUrl": "https://job-boards.greenhouse.io/contentful",
+    "priority": "B",
+    "status": "Active",
+    "notes": "Demo seed"
+  },
+  {
+    "company": "Grafana Labs",
+    "ats": "Greenhouse",
+    "feedUrl": "https://boards-api.greenhouse.io/v1/boards/grafanalabs/jobs",
+    "boardUrl": "https://job-boards.greenhouse.io/grafanalabs",
+    "priority": "B",
+    "status": "Active",
+    "notes": "Demo seed"
+  }
+]

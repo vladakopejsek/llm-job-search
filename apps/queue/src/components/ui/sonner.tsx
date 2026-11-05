@@ -1,0 +1,29 @@
+import { CircleCheckIcon, InfoIcon, Loader2Icon, OctagonXIcon, TriangleAlertIcon } from "lucide-react";
+import { Toaster as Sonner, type ToasterProps } from "sonner";
+import { useDark } from "@/lib/theme";
+
+/** Toasts are inverted (light on a dark page, dark on a light one), so an Undo stands out from the cards. */
+const Toaster = (props: ToasterProps) => (
+  <Sonner
+    theme={useDark() ? "light" : "dark"}
+    className="toaster group"
+    icons={{
+      success: <CircleCheckIcon className="size-4" />,
+      info: <InfoIcon className="size-4" />,
+      warning: <TriangleAlertIcon className="size-4" />,
+      error: <OctagonXIcon className="size-4" />,
+      loading: <Loader2Icon className="size-4 animate-spin" />,
+    }}
+    style={
+      {
+        "--normal-bg": "var(--foreground)",
+        "--normal-text": "var(--background)",
+        "--normal-border": "var(--foreground)",
+        "--border-radius": "var(--radius)",
+      } as React.CSSProperties
+    }
+    {...props}
+  />
+);
+
+export { Toaster };

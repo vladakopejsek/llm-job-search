@@ -1,0 +1,40 @@
+{
+  "jobPostingInfo": {
+    "id": "a19ed149a7721001500b94ee41170000",
+    "title": "Senior AI Enablement Software Engineer (m/f/n)",
+    "jobDescription": "<p style=\"text-align:left\"><span class=\"emphasis\"><b>Summary</b></span></p>AI is reshaping how software gets built, and we're moving fast to make it a standard part of engineering at scale. With an estate of more than 3,000 repositories, we have one of the largest and most interesting AI enablement challenges in the industry — and we're looking for the person who wants to own it.<p style=\"text-align:inherit\"></p><p style=\"text-align:inherit\"></p><p style=\"text-align:left\"><span class=\"emphasis\">Job description</span></p><p>This role is about turning AI from promise into measurable impact. You&#39;ll build the configurations, tooling, and patterns that let delivery teams plug AI directly into their day-to-day work, and you&#39;ll lead the mentoring classes and educational sessions that spread that capability across the organization.  </p><br /><p>If you&#39;re a senior engineer who loves both deep technical work and helping teams adopt AI confidently, this is a rare chance to shape how thousands of engineers work every day.</p><br /><p><span style=\"color:#000000\"><b>What you will do</b> </span></p><ul><li><span style=\"color:#000000\"><b>Configure repositories for AI</b> — design, build, and roll out repeatable configurations (rules, instructions, context files, MCP/tool integrations, CI hooks) across a large and diverse repository estate.</span></li></ul><ul><li><span style=\"color:#000000\"><b>Develop internal AI-powered apps for software engineering</b> — build practical tools, assistants, dashboards, and workflow integrations that help engineering teams use AI safely and effectively in daily development, testing, code review, documentation, and repository maintenance.</span></li></ul>",
+    "location": "Bratislava",
+    "additionalLocations": [
+      "Brno"
+    ],
+    "postedOn": "Posted 3 Days Ago",
+    "startDate": "2026-10-23",
+    "timeType": "Full time",
+    "jobReqId": "JR-06088",
+    "jobPostingId": "AI-Enablement-Software-Engineer_JR-06088",
+    "jobPostingSiteId": "ESET_External",
+    "country": {
+      "descriptor": "Slovakia",
+      "id": "d2f29df0c90f4cea9e7d17f2ed8a86ad"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Bratislava",
+      "country": {
+        "descriptor": "Slovakia",
+        "id": "d2f29df0c90f4cea9e7d17f2ed8a86ad",
+        "alpha2Code": "SK"
+      }
+    },
+    "externalUrl": "https://eset.wd3.myworkdayjobs.com/ESET_External/job/Bratislava/AI-Enablement-Software-Engineer_JR-06088",
+    "questionnaireId": "6b6eb61d7fbd1000bea1747169cc0000",
+    "secondaryQuestionnaireId": "b37b51fe8a26100202342913570a0000"
+  },
+  "hiringOrganization": {
+    "name": "ESET, spol. s r.o.",
+    "url": ""
+  },
+  "userAuthenticated": false
+}

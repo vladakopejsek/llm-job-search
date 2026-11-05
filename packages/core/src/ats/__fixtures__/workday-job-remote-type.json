@@ -1,0 +1,37 @@
+{
+  "jobPostingInfo": {
+    "id": "9c41424055c71000e9adbbb7b7030000",
+    "title": "Regional Artificial Intelligence Deployment Leader - EMEA",
+    "jobDescription": "<p style=\"text-align:left\"><b><span class=\"emphasis\">Who We Are</span></b></p><p>At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses.  We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster innovation, and a lasting competitive edge. For our people—Kyndryls—that means doing purposeful work that powers human progress. Join us and experience a flexible, supportive environment where your well-being is prioritized and your potential can thrive.</p><p style=\"text-align:left\"><br /><b><span class=\"emphasis\">The Role</span></b></p><h2>Who We Are</h2><p>Kyndryl&#39;s Global Artificial Intelligence Infrastructure &amp; Data Center Deployment organization helps customers design, build, deploy, manage and optimize Artificial Intelligence infrastructure at global scale. Our teams support the full lifecycle of Artificial Intelligence data center deployments, from readiness and mobilization through deployment, operational handoff and continuous improvement.</p>",
+    "location": "Brno, Jihomoravský kraj, Czechia",
+    "postedOn": "Posted Today",
+    "startDate": "2026-10-26",
+    "timeType": "Full time",
+    "jobReqId": "R-70423",
+    "jobPostingId": "Regional-AI-Deployment-Leader---EMEA_R-70423-1",
+    "jobPostingSiteId": "KyndrylProfessionalCareers",
+    "country": {
+      "descriptor": "Czechia",
+      "id": "fc078443155c4ad294201ecf5a61a499"
+    },
+    "canApply": true,
+    "posted": true,
+    "includeResumeParsing": true,
+    "jobRequisitionLocation": {
+      "descriptor": "Brno (KCZ51652) Vlnena",
+      "country": {
+        "descriptor": "Czechia",
+        "id": "fc078443155c4ad294201ecf5a61a499",
+        "alpha2Code": "CZ"
+      }
+    },
+    "remoteType": "Partially Remote",
+    "externalUrl": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Brno-Jihomoravsk-kraj-Czechia/Regional-AI-Deployment-Leader---EMEA_R-70423-1",
+    "questionnaireId": "ef5ec5f005761001b398fbb7a7630000"
+  },
+  "hiringOrganization": {
+    "name": "3070 Kyndryl Client Center, s.r.o.",
+    "url": ""
+  },
+  "userAuthenticated": false
+}
